@@ -1,1 +1,1 @@
-Repositório teste para testar a função clone
+# Meu repositório de exercícios
