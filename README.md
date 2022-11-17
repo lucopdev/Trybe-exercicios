@@ -124,6 +124,7 @@
   - [ ] Dia 04: Projeto - StarWars Datatable com Context API e Hooks
   
   #### 10. Projeto App de Receitas
+  
   - [ ] Dia 01: Projeto - App de Receitas
 
 
