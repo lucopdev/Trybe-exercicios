@@ -63,7 +63,7 @@
   - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
   - [ ] Dia 06: Projeto - Zoo functions
     
-  ### Módulo 2 Front-End
+  ## Módulo 2 Front-End
 
   #### 1. Introdução ao Frontend e JavaScript assíncrono
   
@@ -85,16 +85,57 @@
   - [ ] Dia 02: Formulários no React
   - [ ] Dia 03: Projeto - Tryunfo
    
+   #### 4. Ciclo de Vida de Componentes e React Router
+  
+  - [ ] Dia 01: Ciclo de vida de componentes
+  - [ ] Dia 02: React Router
+  - [ ] Dia 03: Projeto - TrybeTunes
    
+  #### 5. Metodologias Ágeis
+  
+ - [ ] Dia 01: Metodologias Ágeis
+ - [ ] Dia 02: Projeto - Front-end Online Store
+ 
+  #### 6. Testes automatizados com React Testing Library
+  
+  - [ ] Dia 01: RTL - Primeiros passos
+  - [ ] Dia 02: RTL - Mocks e Inputs
+  - [ ] Dia 03: RTL - Testando React Router
+  - [ ] Dia 04: Projeto - Testes em React
+
+  #### 7. Gerenciamento de estado com Redux
+  
+  - [ ] Dia 01: Introdução ao Redux - O estado global da aplicação
+  - [ ] Dia 02: Usando o Redux no React
+  - [ ] Dia 03: Usando o Redux no React - Prática
+  - [ ] Dia 04: Usando o Redux no React - Actions Assíncronas
+  - [ ] Dia 05: Testes em React-Redux
+  - [ ] Dia 06: Projeto - Trybe Wallet
+  
+  #### 8. Projeto jogo de Trivia
+  
+  - [ ] Dia 01: Projeto - Jogo de Trivia
+
+  #### 9. Context API e React Hooks
    
-   
-### Módulo 3 Back-End
+  - [ ] Dia 01: React Hooks - useState e useEffect
+  - [ ] Dia 02: Context API
+  - [ ] Dia 03: Custom Hooks
+  - [ ] Dia 04: Projeto - StarWars Datatable com Context API e Hooks
+  
+  #### 10. Projeto App de Receitas
+  - [ ] Dia 01: Projeto - App de Receitas
+
+
+
+  
+## Módulo 3 Back-End
 
 #### 1.
 
   - [ ] 
 
-### Módulo 4 Introdução a ciência da computação
+## Módulo 4 Introdução a ciência da computação
 
 #### 1.
 
