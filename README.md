@@ -54,35 +54,49 @@
   - [ ] Dia 03: Matchers e cobertura de código
   - [ ] Dia 04: Projeto - JavaScript Testes Unitários
   
-  #### 8.
-   Dia 01:
-JavaScript ES6 - Introdução a Higher Order Functions
- Dia 02:
-JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
- Dia 03:
-JavaScript ES6 - Higher Order Functions - map e filter
- Dia 04:
-JavaScript ES6 - Higher Order Functions - reduce
- Dia 05:
-JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
- Dia 06:
-Projeto - Zoo functions
+  #### 8. Higher Order Functions do JavaScript ES6
   
-  
-  
-  
-  
-  
-  
-  
-### Módulo 2 Front-End
+  - [ ] Dia 01: Introdução a Higher Order Functions
+  - [ ] Dia 02: Higher Order Functions - forEach, find, some, every, sort
+  - [ ] Dia 03: Higher Order Functions - map e filter
+  - [ ] Dia 04: Higher Order Functions - reduce
+  - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
+  - [ ] Dia 06: Projeto - Zoo functions
+    
+  ### Módulo 2 Front-End
 
-  #### 1. 
-  - [ ]
+  #### 1. Introdução ao Frontend e JavaScript assíncrono
+  
+  - [ ] Dia 01: Ambiente de desenvolvimento
+  - [ ] Dia 02: JavaScript Assíncrono - Promises e fetch
+  - [ ] Dia 03: Prática - Casa de câmbio
+  - [ ] Dia 04: Async, await e testes assíncronos
+  - [ ] Dia 05: Projeto - Carrinho de compras
+  
+  #### 2. Introdução ao React
+  
+  - [ ] Dia 01: 'Hello, world!' no React!
+  - [ ] Dia 02: Componentes React
+  - [ ] Dia 03: Projeto - Solar System
+   
+   #### 3. Componentes com Estado, Eventos e Formulários com React
+   
+  - [ ] Dia 01: Componentes com estado e eventos
+  - [ ] Dia 02: Formulários no React
+  - [ ] Dia 03: Projeto - Tryunfo
+   
+   
+   
+   
 ### Módulo 3 Back-End
-  #### 1.
+
+#### 1.
+
   - [ ] 
+
 ### Módulo 4 Introdução a ciência da computação
-  #### 1.
-  - [ ] 
+
+#### 1.
+
+- [ ] 
 
