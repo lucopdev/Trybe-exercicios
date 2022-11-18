@@ -15,7 +15,7 @@
   #### 3. Introdução à HTML & CSS
   
   - [x] Dia 01: Estrutura de página
-  - [ ] Dia 02: Primeiros passos em CSS
+  - [x] Dia 02: Primeiros passos em CSS
   - [ ] Dia 03: Seletores e posicionamento
   - [ ] Dia 04: HTML Semântico
   - [ ] Dia 05: Projeto - Lessons Learned
