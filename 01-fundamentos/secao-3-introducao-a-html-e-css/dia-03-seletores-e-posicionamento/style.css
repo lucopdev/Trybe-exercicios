@@ -19,13 +19,19 @@ h1 {
 
 .baloon {
     position: absolute;
-   
+    margin: 0px 0px 0px 300px;
+    z-index: 3;
 }
 
 .speach {
     font-size: 25px;
+    position: absolute;
+    margin: 65px 0px 0px 322px;
+    z-index: 4;
 }
 
 .bowser {
     width: 200px;
+    position: absolute;
+    margin: 160px 0px 0px 575px;
 }
