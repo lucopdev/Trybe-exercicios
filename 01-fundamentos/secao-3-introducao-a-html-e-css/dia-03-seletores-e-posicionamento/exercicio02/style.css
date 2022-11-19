@@ -2,8 +2,26 @@ h1, p, li {
     text-align: center;
 }
 
-li {
-    width: 80px;
-    margin: auto;
+li{
+    list-style: none;
 }
 
+.top li {
+    width: 80px;
+    margin: auto;
+    padding: 0px;
+}
+
+.top li:hover {
+    background-color: green;
+}
+
+.top li:active {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.motivos li {
+    width: 180px;
+    margin: auto;
+    padding: 0px;
+}
