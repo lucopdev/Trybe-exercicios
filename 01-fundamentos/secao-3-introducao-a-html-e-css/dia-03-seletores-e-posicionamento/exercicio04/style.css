@@ -5,3 +5,16 @@
     text-transform: uppercase;
 }
 
+.li2, .li4 {
+    color: green;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 {
+    font-size: 40px;
+    border: solid 1px black;
+}
+
