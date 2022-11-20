@@ -1,5 +1,7 @@
 .listaOrdenada {
     background-color: yellow;
 }
-
+.li1, .li3, .li5 {
+    text-transform: uppercase;
+}
 
