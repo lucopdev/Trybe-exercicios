@@ -31,3 +31,31 @@ div:hover {
 .cor5 {
     background-color: #cccccc;
 }
+
+.h3Primaria {
+    color: green;
+    padding: 10px;
+    font-style: italic;
+}
+
+.h3Secundaria {
+    color: purple;
+    padding: 10px;
+}
+
+.h3Complementar {
+    color: red;
+    padding: 10px;
+    font-style: italic;
+}
+
+.h3Escura {
+    color: white;
+    padding: 10px;
+}
+
+.h3Clara {
+    color: black;
+    padding: 10px;
+    font-style: italic;
+}
