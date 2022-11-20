@@ -25,3 +25,12 @@ li {
 li em {
     font-weight: bold;
 }
+
+.linguagem1, .linguagem2, .linguagem3 {
+    color: blue;
+}
+
+.linguagem2, .linguagem3 {
+    background-color: pink;
+}
+
