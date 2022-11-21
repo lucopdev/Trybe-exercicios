@@ -1,0 +1,63 @@
+.listaOrdenada {
+    background-color: yellow;
+}
+.li1, .li3, .li5 {
+    text-transform: uppercase;
+}
+
+.li2, .li4 {
+    color: green;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 {
+    font-size: 40px;
+    border: solid 1px black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linguagem1, .linguagem2, .linguagem3 {
+    color: blue;
+}
+
+.linguagem2, .linguagem3 {
+    background-color: pink;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.aliadosCor1 a:hover{
+    color: rgb(250, 111, 18);
+}
+
+.aliadosCor2 a:hover{
+    color: rgb(0, 128, 90);
+}
+
+.aliadosCor3 a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.aliadosCor4 a:hover{
+    color: rgb(255, 217, 0);
+}
+
+.aliadosCor5 a:hover{
+    color: rgb(9, 145, 61);
+}
