@@ -1,27 +1,38 @@
-      h1 {
-        text-align: center;
-      }
+h1 {
+    text-align: center;
+}
 
-      .first {
-        background-color: rgb(235, 200, 84);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 200px;
-      }
+.poddium {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
 
-      .second {
-        background-color: rgb(219, 219, 219);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
 
-      .third {
-        background-color: rgb(170, 142, 106);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
+.second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+
