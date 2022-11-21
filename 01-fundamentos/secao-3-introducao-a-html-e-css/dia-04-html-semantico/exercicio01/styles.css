@@ -36,3 +36,14 @@ h1 {
     display: inline-block;
 }
 
+.prizes {
+    text-align: center;
+}
+
+.prizes ul {
+    list-style: none;
+}
+
+.prizes li {
+    display: inline-block;
+}
