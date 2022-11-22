@@ -33,9 +33,10 @@ article {
 }
 
 article img {
-    width: 200px;
+    width: 300px;
+    height: 220px;
     float: left;
-    margin: 0px 10px 0px 10px;
+    margin: 13px 10px 0px 10px;
 }
 
 article h1 {
@@ -45,14 +46,16 @@ article h1 {
 }
 
 article h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 
 article p {
     font-size: 18px;
     text-align: justify;
+    margin: 30px 10px;
+    line-height: 28px;
 }
 
 .section1, .section2, .section3, .section4, .section5 {
