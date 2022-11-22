@@ -5,18 +5,19 @@
     font-family: sans-serif;
 }
 
-header {
-    text-align: center;
-    font-size: 50px;
-    margin: 50px;
-    font-weight: bold;
-}
-
 nav {
     text-align: right;
     height: 50px;
     background-color: red;
     font-weight: bold;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav li {    
@@ -40,13 +41,21 @@ article img {
 }
 
 article h1 {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
-    margin: 50px 0px;
+    width: 700px;
+    margin: 50px auto;
+    
 }
 
 article h2 {
     font-size: 30px;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+article h3 {
+    font-size: 20px;
     text-align: left;
     margin: 20px 10px;
 }
@@ -73,7 +82,7 @@ article p {
     padding: 20px 20px;
 }
 
-.tableSection h2 {
+.tableSection h3 {
     text-align: center;
     margin: 20px;
 }
@@ -84,7 +93,7 @@ article p {
     font-size: 16px;
 }
 
-.section5 h2 {
+.section5 h3 {
     text-align: right;
     margin: 0px 0px 50px 0px;
 }
