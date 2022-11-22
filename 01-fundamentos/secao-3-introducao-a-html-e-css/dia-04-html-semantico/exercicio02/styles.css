@@ -12,3 +12,17 @@ header {
     font-weight: bold;
 }
 
+nav {
+    text-align: right;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+}
+
+nav li {    
+    color: white;
+    font-size: 20px;
+    margin: 11px 20px 0px 20px;
+    display: inline-block;
+}
+
