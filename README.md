@@ -17,7 +17,7 @@
   - [x] Dia 01: Estrutura de página
   - [x] Dia 02: Primeiros passos em CSS
   - [x] Dia 03: Seletores e posicionamento
-  - [ ] Dia 04: HTML Semântico
+  - [x] Dia 04: HTML Semântico
   - [ ] Dia 05: Projeto - Lessons Learned
   
   #### 4. Introdução à JavaScript
