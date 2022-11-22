@@ -84,6 +84,31 @@ article p {
     font-size: 16px;
 }
 
+.section5 h2 {
+    text-align: right;
+    margin: 0px 0px 50px 0px;
+}
+
+.section5 ul {
+    text-align: right;
+}
+
+.section5 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.section5 a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px 0px 10px 0px;
+    text-align: right;
+    color: black;
+    cursor: pointer;
+    
+}
+
 aside {
     display: inline-block;
     width: 25%;
