@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    font-weight: bold;
+}
+
