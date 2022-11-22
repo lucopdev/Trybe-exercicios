@@ -87,7 +87,7 @@ article p {
     margin: 20px;
 }
 
-.table th{
+.table th, .table td{
     width: 10%;
     border: solid 2px black;
     font-size: 16px;
