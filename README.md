@@ -18,11 +18,11 @@
   - [x] Dia 02: Primeiros passos em CSS
   - [x] Dia 03: Seletores e posicionamento
   - [x] Dia 04: HTML Semântico
-  - [ ] Dia 05: Projeto - Lessons Learned
+  - [x] Dia 05: Projeto - Lessons Learned
   
   #### 4. Introdução à JavaScript
   
-  - [ ] Dia 01: Primeiros passos
+  - [x] Dia 01: Primeiros passos
   - [ ] Dia 02: Array e loop For
   - [ ] Dia 03: Lógica de Programação e Algoritmos
   - [ ] Dia 04: Objetos e funções
