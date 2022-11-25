@@ -4,11 +4,18 @@ console.log(numbers);
 
 /////////////////////////////////////////////////////////
 
-let soma = 0;
+let sum = 0;
 for(values of numbers){
-    soma += values;
+    sum += values;
 }
 
-console.log(soma);
+console.log(sum);
 
 /////////////////////////////////////////////////////////
+
+let average = 0;
+for (values of numbers){
+    sum += values;
+    average = sum/numbers.length;
+}
+console.log(average);
