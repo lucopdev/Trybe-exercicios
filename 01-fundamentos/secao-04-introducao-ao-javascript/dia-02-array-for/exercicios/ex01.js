@@ -34,10 +34,18 @@ if (average > 20) {
 
 let maxValue = 0
 for (let value = 0; value < numbers.length; value += 1) {
-    if (numbers[value] > maxValue){
+    if (numbers[value] > maxValue) {
         maxValue = numbers[value];
     }
 }
 console.log(maxValue);
 
 /////////////////////////////////////////////////////////
+
+let counter = 0;
+for (value of numbers) {
+    if (value % 2 !== 0) {
+        counter++;
+    }
+}
+console.log(counter);
