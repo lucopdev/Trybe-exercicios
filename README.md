@@ -1,4 +1,4 @@
-<img src="https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fajuda.betrybe.com%2Fhc%2Fpt-br%2Farticles%2F360059558613-Quanto-custa-estudar-na-Trybe-&psig=AOvVaw114Y3GcEuPoH5Ko_a4LJwh&ust=1669578777830000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjT0eHPzPsCFQAAAAAdAAAAABAO">
+<img src="https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fgithub.com%2FAndersonSilva94%2Fproject-algorithms&psig=AOvVaw0mWJiY3nUZlztmFfJZ8aKg&ust=1669580927968000&source=images&cd=vfe&ved=2ahUKEwjLia3i18z7AhV1N7kGHYZDA0sQjRx6BAgAEAo">
 
 # Repositório de exercícios da **Trybe**
 
