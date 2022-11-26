@@ -67,13 +67,20 @@ console.log(minValue);
 
 /////////////////////////////////////////////////////////
 //08
+let indexArr = [];
 for (let index = 1; index <= 25; index += 1) {
-    console.log(index);
+    indexArr.push(index);
 }
+console.log(indexArr);
 
 /////////////////////////////////////////////////////////
-//08
-
+//09
+let halfIndexArr = [];
+for (let index = 1; index <= 25; index += 1) {
+    let half = index/2
+    halfIndexArr.push(half);
+}
+console.log(halfIndexArr);
 
 
 /////////////////////////////////////////////////////////
