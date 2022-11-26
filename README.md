@@ -1,4 +1,4 @@
-<img src="https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fgithub.com%2FAndersonSilva94%2Fproject-algorithms&psig=AOvVaw0mWJiY3nUZlztmFfJZ8aKg&ust=1669580927968000&source=images&cd=vfe&ved=2ahUKEwjLia3i18z7AhV1N7kGHYZDA0sQjRx6BAgAEAo">
+![texto alternativo](https://user-images.githubusercontent.com/52717632/123512102-9546b200-d653-11eb-8b6c-f6c1dd19143e.png)
 
 # Repositório de exercícios da **Trybe**
 
