@@ -1,3 +1,5 @@
+<img src="https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fajuda.betrybe.com%2Fhc%2Fpt-br%2Farticles%2F360059558613-Quanto-custa-estudar-na-Trybe-&psig=AOvVaw114Y3GcEuPoH5Ko_a4LJwh&ust=1669578777830000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjT0eHPzPsCFQAAAAAdAAAAABAO">
+
 # Repositório de exercícios da **Trybe**
 
 ## Módulo 1 Fundamentos
@@ -22,8 +24,8 @@
   
   #### 4. Introdução à JavaScript
   
-  - [ ] Dia 01: Primeiros passos
-  - [ ] Dia 02: Array e loop For
+  - [x] Dia 01: Primeiros passos
+  - [x] Dia 02: Array e loop For
   - [ ] Dia 03: Lógica de Programação e Algoritmos
   - [ ] Dia 04: Objetos e funções
   - [ ] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
