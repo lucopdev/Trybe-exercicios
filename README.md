@@ -1,8 +1,8 @@
 ![texto alternativo](https://user-images.githubusercontent.com/52717632/123512102-9546b200-d653-11eb-8b6c-f6c1dd19143e.png)
 
-<center> # Repositório de exercícios da **Trybe** </center>
+ # <center> Repositório de exercícios da **Trybe** </center>
 
-<mark> ## Módulo 1 Fundamentos </mark>
+ ## <mark> Módulo 1 Fundamentos </mark>
 
   #### 1. Unix & Bash
   
