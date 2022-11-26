@@ -45,3 +45,7 @@ for (let secondIndex = 1; secondIndex <= numbers.length; secondIndex++) {
     numbersTwice.push(numberX2);
 }
 console.log(numbersTwice);
+
+
+
+
