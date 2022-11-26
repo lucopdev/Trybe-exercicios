@@ -1,6 +1,8 @@
+![texto alternativo](https://user-images.githubusercontent.com/52717632/123512102-9546b200-d653-11eb-8b6c-f6c1dd19143e.png)
+
 # Repositório de exercícios da **Trybe**
 
-## Módulo 1 Fundamentos
+ ## Módulo 1 Fundamentos
 
   #### 1. Unix & Bash
   
@@ -23,7 +25,7 @@
   #### 4. Introdução à JavaScript
   
   - [x] Dia 01: Primeiros passos
-  - [ ] Dia 02: Array e loop For
+  - [x] Dia 02: Array e loop For
   - [ ] Dia 03: Lógica de Programação e Algoritmos
   - [ ] Dia 04: Objetos e funções
   - [ ] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
@@ -127,18 +129,142 @@
   
   - [ ] Dia 01: Projeto - App de Receitas
 
+  ## Módulo 3 Back-End
+
+  #### 1. Docker: Utilizando Containers
+
+  - [ ] Dia 01: Utilizando Containers Docker
+  - [ ] Dia 02: Manipulando Imagens no Docker
+  - [ ] Dia 03: Orquestrando Containers com Docker Compose
+  - [ ] Dia 04: Projeto - Docker Todo-List
+
+  #### 2. Introdução à SQL
+
+  - [ ] Dia 01: Banco de dados SQL
+  - [ ] Dia 02: Encontrando dados em um banco de dados
+  - [ ] Dia 03: Filtrando dados de forma específica
+  - [ ] Dia 04: Manipulando tabelas
+  - [ ] Dia 05: Projeto - All For One
+
+  #### 3. Funções SQL, JOINs e Normalização
+
+  - [ ] Dia 01: Funções mais usadas no SQL
+  - [ ] Dia 02: Descomplicando JOINs
+  - [ ] Dia 03: Transformando ideias em um modelo de banco de dados
+  - [ ] Dia 04: Aula ao vivo + Projeto - One For All
+
+  #### 4. Introdução ao desenvolvimento web com Node.js
+
+  - [ ] Dia 01: Runtime Assíncrono
+  - [ ] Dia 02: API REST com Express
+  - [ ] Dia 03: Testes de Integração
+  - [ ] Dia 04: Express e Middlewares
+  - [ ] Dia 05: Express e MySQL
+  - [ ] Dia 06: Projeto - Talker Manager
+
+  #### 5. Arquitetura de Software: Model, Service e Controller
+
+  - [ ] Dia 01: Arquitetura de Software: Camada Model
+  - [ ] Dia 02: Arquitetura de Software: Camada Service
+  - [ ] Dia 03: Arquitetura de Software: Camada Controller
+  - [ ] Dia 04: Projeto - Store Manager
+
+  #### 6. Node.js: ORM e Autenticação
+
+  - [ ] Dia 01: Interface da aplicação com o banco de dados
+  - [ ] Dia 02: Associations 1:1 e 1:N
+  - [ ] Dia 03: Associations N:N e Transactions
+  - [ ] Dia 04: JWT - (JSON Web Token)
+  - [ ] Dia 05: Projeto - API de Blogs
+
+  #### 7. Masterclass: Implantação de Aplicações na Nuvem
+
+  - [ ] Dia 01: Infraestrutura: Deploy com Railway
+
+  #### 8. Introdução a Typescript
+
+  - [ ] Dia 01: Introdução ao TypeScript
+  - [ ] Dia 02: Tipagem Estática e Generics
+  - [ ] Dia 03: Express com TypeScript
+  - [ ] Dia 04: Projeto - Trybesmith
+
+  ### 9. Programação Orientada a Objetos (POO) e SOLID
+
+  - [ ] Dia 01: Introdução à Orientação a Objetos
+  - [ ] Dia 02: Herança e Interfaces
+  - [ ] Dia 03: Polimorfismo
+  - [ ] Dia 04: SOLID - Introdução e Princípios S, O e D
+  - [ ] Dia 05: SOLID - Princípios L e I
+  - [ ] Dia 06: Projeto - Trybers and Dragons
+
+  #### 10. Projeto - TFC - Trybe Futebol Clube
+
+  - [ ] Dia 01: Projeto - TFC - Trybe Futebol Clube
+
+  #### 11. Introdução ao MongoDB
+
+  - [ ]  Dia 01: MongoDB - Introdução
+  - [ ] Dia 02: Filter Operators
+  - [ ] Dia 03: Operadores de consulta
+  - [ ] Dia 04: Updates Simples
+  - [ ] Dia 05: Updates Complexos - Arrays
+  - [ ] Dia 06: Projeto - Commerce
 
 
-  
-## Módulo 3 Back-End
+  #### 12. Apis OO e NoSQL
 
-#### 1.
+  - [ ] Dia 01: APIs orientadas a objetos e NoSQL: POO e ODMs
+  - [ ] Dia 02: APIs orientadas a objetos e NoSQL: Herança e Abstração
+  - [ ] Dia 03: Projeto - Car Shop
 
-  - [ ] 
+  #### 13. Projeto - App de Delivery
 
-## Módulo 4 Introdução a ciência da computação
+  - [ ] Dia 01: Projeto - App de Delivery
 
-#### 1.
+  #### 14. Masterclass - VPS, CI/CO
 
-- [ ] 
+  - [ ] Dia 01: VPS
+  - [ ] Dia 02: CI/CD
 
+  ## Módulo 4 Introdução a ciência da computação
+
+  #### 1. Introdução à Python
+  - [ ]  Dia 01: Aprendendo Python
+  - [ ] Dia 02: Entrada e Saída de Dados
+  - [ ] Dia 03: Testes
+  - [ ] Dia 04: Projeto - Job Insights
+
+  #### 2. Padrões de Projeto
+
+  - [ ] Dia 01: P.O.O em Python
+  - [ ] Dia 02: Padrões - Iterator, Adapter, Strategy
+  - [ ] Dia 03: Padrões - Decorator, Observer, Factory
+  - [ ] Dia 04: Projeto - Relatórios de Estoque
+
+#### 3. Redes e Raspagem de Dados
+
+  - [ ] Dia 01: Arquitetura de redes
+  - [ ] Dia 02: Raspagem de Dados
+  - [ ] Dia 03: Outras Ferramentas de Raspagem de Dados
+  - [ ] Dia 04: Projeto - Tech news
+
+#### 4. Algoritimos
+
+  - [ ] Dia 01: Complexidade de Algoritmos
+  - [ ] Dia 02: Recursividade e Estratégias para solução de problemas
+  - [ ] Dia 03: Algoritmos de ordenação e busca
+  - [ ] Dia 04: Projeto - Algoritmos
+
+#### 5. Estrutura de Dados I: Arrays, listas, Filas e Pilhas
+
+  - [ ] Dia 01: Arquitetura de Computadores
+  - [ ] Dia 02: Arrays
+  - [ ] Dia 03: Nó e Listas Encadeadas
+  - [ ] Dia 04: Pilhas e Filas
+  - [ ] Dia 05: Projeto - TING - Trybe Is Not Google
+
+#### 6. Estrutura de Dados II: Hashmaps e Sets
+
+  - [ ] Dia 01: Hashmap e Dict
+  - [ ] Dia 02: Set
+  - [ ] Dia 03: Projeto - Restaurant Orders
