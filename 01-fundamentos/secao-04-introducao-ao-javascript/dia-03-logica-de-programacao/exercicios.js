@@ -16,10 +16,23 @@
 // console.log(newWord);
 
 // 03
-let largerWord = 0;
+// let largerWord = 0;
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// for (let index = 0; index < array.length; index++) {
+//     if (largerWord < array[index].length) {
+//         largerWord = array[index].length;
+//     }
+// }
+// console.log(largerWord);
+
+// 04
+
 let array = ['java', 'javascript', 'python', 'html', 'css'];
-for (let index = 0; index < array.length; index++) {
-    if(largerWord < array[index].length)
-    largerWord = array[index].length;
+let largerWord = array[0].length;
+
+for (let index = 0; index < array.length; index++) {    
+    if (largerWord > array[index].length) {
+        largerWord = array[index].length;
+    }
 }
 console.log(largerWord);
