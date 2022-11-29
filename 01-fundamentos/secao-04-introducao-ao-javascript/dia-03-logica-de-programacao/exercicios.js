@@ -7,10 +7,19 @@
 // console.log(factorial);
 
 // 02
-let word = 'TRYBER';
-let newWord = '';
-let allLetters = word.length
-for (let index = 1; index <= allLetters; index++) {
-    newWord = newWord + word[allLetters-index];
+// let word = 'TRYBER';
+// let newWord = '';
+// let allLetters = word.length
+// for (let index = 1; index <= allLetters; index++) {
+//     newWord = newWord + word[allLetters-index];
+// }
+// console.log(newWord);
+
+// 03
+let largerWord = 0;
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+for (let index = 0; index < array.length; index++) {
+    if(largerWord < array[index].length)
+    largerWord = array[index].length;
 }
-console.log(newWord);
+console.log(largerWord);
