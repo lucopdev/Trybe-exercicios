@@ -26,13 +26,37 @@
 // console.log(largerWord);
 
 // 04
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let largerWord = array[0].length;
 
-let array = ['java', 'javascript', 'python', 'html', 'css'];
-let largerWord = array[0].length;
+// for (let index = 0; index < array.length; index++) {    
+//     if (largerWord > array[index].length) {
+//         largerWord = array[index].length;
+//     }
+// }
+// console.log(largerWord);
 
-for (let index = 0; index < array.length; index++) {    
-    if (largerWord > array[index].length) {
-        largerWord = array[index].length;
+// 05
+let limite = 500;
+let primos = [];
+let maiorPrimo = 0;
+
+for (let index = 2; index < limite; index += 1) {
+    let primo = true;
+    for (let indexInterno = 2; indexInterno <= limite; indexInterno += 1) {
+        if ((index % indexInterno === 0) && index !== indexInterno) {
+            primo = false;
+        }
+    }
+    if (primo === true) {
+        primos.push(index);
     }
 }
-console.log(largerWord);
+
+for (let index = 0; index < primos.length; index++) {
+    if(primos[index] > maiorPrimo){
+        maiorPrimo = primos[index];
+    }        
+}
+
+console.log(maiorPrimo);
