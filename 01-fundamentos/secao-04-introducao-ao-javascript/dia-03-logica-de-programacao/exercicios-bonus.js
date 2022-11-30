@@ -23,16 +23,23 @@ let n = 5;
 let draw = '*';
 let space = ' ';
 for (let index = n; index > 0; index -= 1) {
-    
-    
+
+
     console.log(space, draw);
 }
 
-// 04
+//04
 // let n = 5;
 // let draw = '*';
 // let space = ' ';
-// for (let index = 0; index < n ; index += 1) {
-//     space = space + ' ';    
-//     console.log(space, draw);
+// for (let index = 0; index < n; index += 1) {
+//     space = space + ' ';
+    
+//     for (let index = 0; index < n-2; index++) {
+//         draw = draw + ' *';
+//         console.log(space, draw);
+//     }
+    
 // }
+
+// console.log(draw);

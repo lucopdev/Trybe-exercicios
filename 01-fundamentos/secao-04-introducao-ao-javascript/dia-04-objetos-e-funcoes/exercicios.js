@@ -72,15 +72,15 @@
 // Objetos e for/in
 // 06
 
-let info = {
-    personagem: 'Margarida',
-    origem: 'Pato Donald',
-    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-};
+// let info = {
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
+//     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+// };
 
-info.recorrente = 'Sim';
-info.cidade = 'Patópolis';
-info['nota'] = 'Namorada do personagem principal dos quadrinhos da Disney';
+// info.recorrente = 'Sim';
+// info.cidade = 'Patópolis';
+// info['nota'] = 'Namorada do personagem principal dos quadrinhos da Disney';
 
 // console.log(`Bem-vinda, ${info.personagem}`);
 // console.log(info);
@@ -101,3 +101,25 @@ info['nota'] = 'Namorada do personagem principal dos quadrinhos da Disney';
 // for (const key in info, info2) {
 //     console.log(`${info[key]} e ${info2[key]}`);
 // }
+
+// let leitor = {
+//     nome: 'Julia',
+//     sobrenome: 'Pessoa',
+//     idade: 21,
+//     livrosFavoritos: [
+//         {
+//             titulo: 'O Pior Dia de Todos',
+//             autor: 'Daniela Kopsch',
+//             editora: 'Tordesilhas',
+//         },
+//     ],
+// };
+
+// leitor.livrosFavoritos.push({
+//     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//     autor: 'JK Rowling',
+//     editora: 'Rocco',
+//   });
+// console.log(`O livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama ${leitor.livrosFavoritos[0].titulo}`);
+// console.log(`${leitor.nome} tem ${leitor.livrosFavoritos.length} livros favoritos`);
+// console.table(leitor.livrosFavoritos);
