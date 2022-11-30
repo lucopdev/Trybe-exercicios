@@ -42,3 +42,16 @@
 //     }
 // }
 // console.log(higherThree(15, 20, 7));
+
+//04
+// function isPositive(num) {
+//     if (num > 0){
+//         return `Positive`;
+//     }else if (num < 0){
+//         return `Negative`;
+//     }else{
+//         return 'zero';
+//     }
+// }
+// console.log(isPositive(-7));
+
