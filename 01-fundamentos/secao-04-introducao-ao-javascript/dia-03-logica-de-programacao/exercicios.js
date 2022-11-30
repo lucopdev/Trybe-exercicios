@@ -54,9 +54,9 @@ for (let index = 2; index < limite; index += 1) {
 }
 
 for (let index = 0; index < primos.length; index++) {
-    if(primos[index] > maiorPrimo){
+    if (primos[index] > maiorPrimo) {
         maiorPrimo = primos[index];
-    }        
+    }
 }
 
 console.log(maiorPrimo);
