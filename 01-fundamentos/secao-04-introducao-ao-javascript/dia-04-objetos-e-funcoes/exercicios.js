@@ -55,3 +55,11 @@
 // }
 // console.log(isPositive(-7));
 
+// function isTriangule(angle1, angle2, angle3) {
+//     if ((angle1 + angle2 + angle3) === 180){
+//         return 'True';
+//     }else{
+//         return 'False';
+//     }
+// }
+// console.log(isTriangule(40, 50, 90));
