@@ -22,11 +22,23 @@
 // console.log(sum(10, 50));
 
 // 02
-function higherNumber(num1, num2) {
-    if (num1 > num2) {
-        return `O maior é o ${num1}`;
-    } else {
-        return `O maior é o ${num2}`;
-    }
-}
-console.log(higherNumber(30, 40));
+// function higherNumber(num1, num2) {
+//     if (num1 > num2) {
+//         return `O maior é o ${num1}`;
+//     } else {
+//         return `O maior é o ${num2}`;
+//     }
+// }
+// console.log(higherNumber(30, 40));
+
+//03
+// function higherThree(num1, num2, num3) {
+//     if (num1 > num2 && num1 > num3) {
+//         return `O maior é o ${num1}`;
+//     } else if(num2 > num1 && num2 > num3) {
+//         return `O maior é o ${num2}`;
+//     } else {
+//         return `O maior é o ${num3}`;
+//     }
+// }
+// console.log(higherThree(15, 20, 7));
