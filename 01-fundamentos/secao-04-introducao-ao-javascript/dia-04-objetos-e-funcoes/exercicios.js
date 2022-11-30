@@ -68,3 +68,36 @@
 //     }
 // }
 // console.log(isTriangule(40, 50, 90));
+
+// Objetos e for/in
+// 06
+
+let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
+
+info.recorrente = 'Sim';
+info.cidade = 'Patópolis';
+info['nota'] = 'Namorada do personagem principal dos quadrinhos da Disney';
+
+// console.log(`Bem-vinda, ${info.personagem}`);
+// console.log(info);
+
+// for (let keys in info) {
+//     console.log(keys);
+// }
+
+// for (let keys in info) {
+//     console.log(info[keys]);
+// }
+
+// let info2 = {
+//     personagem: 'Tio Patinhas',
+//     origem: "Christmas on Bear Mountain, Dell's Four Color Comics",
+//     nota: 'O último MacPatinhas',
+// };
+// for (const key in info, info2) {
+//     console.log(`${info[key]} e ${info2[key]}`);
+// }
