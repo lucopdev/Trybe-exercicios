@@ -27,7 +27,7 @@
   - [x] Dia 01: Primeiros passos
   - [x] Dia 02: Array e loop For
   - [x] Dia 03: Lógica de Programação e Algoritmos
-  - [ ] Dia 04: Objetos e funções
+  - [x] Dia 04: Objetos e funções
   - [ ] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
   - [ ] Dia 06: Projeto - Playground Functions
   
