@@ -65,7 +65,8 @@
 // console.log(names(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 //05
-//[2, 3, 5, 2, 5, 8, 5, 2, 3, 5, 1, 2, 2, 2]
+// teste 01 [2, 3, 5, 2, 5, 8, 5, 2, 3, 5, 1, 2, 2, 2]
+// teste 02 [1, 2, 3, 1, 5, 1, 2, 1, 5, 8, 1, 5, 2, 3, 5, 1, 2, 2, 2, 1, 5, 7, 1, 8, 1, 9, 1]
 function repeated(array) {
     let counter = 0;
     let counterArray = [];
