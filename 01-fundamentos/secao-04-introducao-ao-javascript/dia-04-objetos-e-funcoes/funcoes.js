@@ -63,3 +63,32 @@
 //     return higherName;
 // }
 // console.log(names(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+//05
+//[2, 3, 5, 2, 5, 8, 5, 2, 3, 5, 1, 2, 2, 2]
+function repeated(array) {
+    let counter = 0;
+    let counterArray = [];
+    let repeatedNumber = 0;
+    for (let index = 0; index < array.length; index++) {
+        for (let innerIndex = 0; innerIndex < array.length; innerIndex++) {
+            if (array[innerIndex] === array[index]) {
+                counter++;
+            }
+            
+        }
+        counterArray.push(counter);
+        counter = 0;
+    }
+
+    for (let index = 0; index < counterArray.length; index++) {
+        for (let innerIndex = 0; innerIndex < counterArray.length; innerIndex++) {
+            if (counterArray[innerIndex] > counterArray[index]) {
+                repeatedNumber = array[innerIndex];
+            }
+        }
+    }
+    return repeatedNumber;
+}
+// [2, 3, 2, 5, 8, 2, 3]
+console.log(repeated([2, 3, 2, 5, 8, 2, 3]));
