@@ -1,4 +1,4 @@
-function higherPhrase(string) {
+function longestWord(string) {
     let newString = string.split(' ');
     let higherWord = newString[0];
     for (let index in newString) {
@@ -8,4 +8,5 @@ function higherPhrase(string) {
     }
     return higherWord;
 }
-console.log(higherPhrase('Eu sou um desenvolvedor profissional!'));
+console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu'));
+
