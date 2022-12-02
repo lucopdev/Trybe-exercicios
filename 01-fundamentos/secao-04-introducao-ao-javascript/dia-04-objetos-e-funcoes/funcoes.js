@@ -19,20 +19,20 @@
 //     console.log(word[size-index]);
 // }
 
-// 02
-//[2, 3, 6, 7, 10, 1]
-// function higherNumber(array) {
-//     let higherIndex = 0;
-//     for (let index = 0; index < array.length; index++) {
-//         for (let innerIndex = 0; innerIndex < array.length; innerIndex++) {
-//             if(array[innerIndex] > array[index]){
-//                 higherIndex = innerIndex;
-//             }
-//         }
-//     }
-//     return higherIndex;
-// }
-// console.log(higherNumber([2, 3, 6, 7, 10, 1]));
+02
+[2, 3, 6, 7, 10, 1]
+function higherIndex(array) {
+    let higherIndex = 0;
+    for (let index = 0; index < array.length; index++) {
+        for (let innerIndex = 0; innerIndex < array.length; innerIndex++) {
+            if(array[innerIndex] < array[index]){
+                higherIndex = innerIndex;
+            }
+        }
+    }
+    return higherIndex;
+}
+console.log(higherIndex([2, 3, 6, 7, 10, 1]));
 
 //03
 //[2, 4, 6, 7, 10, 0, -3]
