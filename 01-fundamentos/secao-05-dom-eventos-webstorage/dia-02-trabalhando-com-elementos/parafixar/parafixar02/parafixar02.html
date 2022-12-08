@@ -20,7 +20,44 @@
         </section>
       </main>
       <script>
-        const 
+        const sectionOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+        sectionOndeVoceEsta.parentElement.style.color = 'red';
+        sectionOndeVoceEsta.firstElementChild.innerText = 'Eu sou um texto';
+        const sectionPai = document.getElementById('pai');
+        const primeiroFilho = sectionPai.firstElementChild;
+        const primeiroFilho2 = sectionOndeVoceEsta.previousElementSibling;
+        const atencao = sectionOndeVoceEsta.nextSibling;
+        const terceiroFilho = sectionOndeVoceEsta.nextElementSibling;
+        const terceiroFilho2 = sectionPai.lastElementChild.previousElementSibling;
+        
+        console.log(terceiroFilho2);
+        
+
+
+//         parentNode: retorna o nó pai.
+
+// parentElement: retorna o elemento pai.
+
+// childNodes: retorna um NodeList com todos os nós filhos.
+
+// children: retorna um HTMLCollection com todos os elementos filhos.
+
+// firstChild: retorna o primeiro nó filho.
+
+// firstElementChild: retorna o primeiro elemento filho.
+
+// lastChild: retorna o último nó filho.
+
+// lastElementChild: retorna o último elemento filho.
+
+// nextSibling: retorna o próximo nó.
+
+// nextElementSibling: retorna o próximo elemento.
+
+// previousSibling: retorna o nó anterior.
+
+// previousElementSibling: retorna o elemento anterior.
       </script>    
 </body>
 </html>
+
