@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+
+    <style>
+        main,
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+        <section class="center-content">
+            <p>Texto padrão do nosso site</p>
+            <p>-----</p>
+            <p>Trybe</p>
+        </section>
+    </main>
+    <script>
+        const paragraph = () => {
+            const ps = document.getElementsByTagName('p');
+            ps[1].innerText = 'Daqui dois anos me vejo atuando como desenvolvedor frontend e backend, desenvolvendo projetos incríveis.';
+        }
+        paragraph();
+        const changeColorMain = () => {
+            const mainContent = document.getElementsByClassName('main-content');
+            mainContent[0].style.backgroundColor = 'rgb(76,164,109)';
+        }
+        changeColorMain();
+        const changeColorCenter = () => {
+            const centerContent = document.getElementsByClassName('center-content');
+            centerContent[0].style.backgroundColor = 'white';
+        }
+        changeColorCenter();
+        const tagCorrection = () => {
+            const h1 = document.getElementsByClassName('title');
+            h1[0].innerText = 'Desafio - JavaScript';
+        }
+        tagCorrection();
+        const textModify = () => {
+            let ps = document.getElementsByTagName('p');
+            ps[0].innerText = ps[0].innerText.toUpperCase();
+        }
+        textModify();
+        const showPs = () => {
+            const ps = document.getElementsByTagName('p');
+            console.log(ps);
+        }
+        showPs();
+    </script>
+</body>
+</html>
