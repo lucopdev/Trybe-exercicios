@@ -5,15 +5,19 @@ const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 const liS = document.getElementsByTagName('li');
 
+myWebpage.style.cursor = 'pointer';
+firstLi.style.cursor = 'pointer';
+secondLi.style.cursor = 'pointer';
+thirdLi.style.cursor = 'pointer';
 // - Copie esse arquivo e edite apenas ele;
 //  - Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
 // R - por causa da propriedade transform da classe tech no styles.css.
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 
 firstLi.addEventListener('click', (e) => {
-    if(firstLi.className.includes('tech')){
+    if (firstLi.className.includes('tech')) {
         firstLi.className = ''
-    }else{
+    } else {
         firstLi.className = 'tech';
     }
     for (let index in liS) {
@@ -24,9 +28,9 @@ firstLi.addEventListener('click', (e) => {
     }
 });
 secondLi.addEventListener('click', (e) => {
-    if(secondLi.className.includes('tech')){
+    if (secondLi.className.includes('tech')) {
         secondLi.className = ''
-    }else{
+    } else {
         secondLi.className = 'tech';
     }
     for (let index in liS) {
@@ -37,9 +41,9 @@ secondLi.addEventListener('click', (e) => {
     }
 });
 thirdLi.addEventListener('click', (e) => {
-    if(thirdLi.className.includes('tech')){
+    if (thirdLi.className.includes('tech')) {
         thirdLi.className = ''
-    }else{
+    } else {
         thirdLi.className = 'tech';
     }
     for (let index in liS) {
@@ -65,9 +69,17 @@ input.addEventListener('keyup', () => {
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
-
+myWebpage.addEventListener('dblclick', () => {
+    open('https://lucopdev.github.io/portfolio/index.html');
+});
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+myWebpage.addEventListener('mouseover', () => {
+    myWebpage.style.color = '#006dfb'
+});
+myWebpage.addEventListener('mouseout', () => {
+    myWebpage.style.color = 'white';
+});
 
 // Segue abaixo um exemplo do uso de event.target:
 
@@ -80,7 +92,8 @@ const resetText = (event) => {
 }
 
 firstLi.addEventListener('dblclick', resetText);
-
+secondLi.addEventListener('dblclick', resetText);
+thirdLi.addEventListener('dblclick', resetText);
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'firstLi'.
