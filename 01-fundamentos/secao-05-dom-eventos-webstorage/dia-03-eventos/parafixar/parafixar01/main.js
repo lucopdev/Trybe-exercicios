@@ -5,6 +5,12 @@ const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 const liS = document.getElementsByTagName('li');
 
+firstLi.addEventListener('mouseover', (e) => {
+    alert('Oeeew');
+});
+
+
+
 myWebpage.style.cursor = 'pointer';
 firstLi.style.cursor = 'pointer';
 secondLi.style.cursor = 'pointer';
@@ -90,6 +96,7 @@ const resetText = (event) => {
     // O event possui várias propriedades, porém a mais usada é o event.target,
     // que retorna o objeto que disparou o evento.
 }
+
 
 firstLi.addEventListener('dblclick', resetText);
 secondLi.addEventListener('dblclick', resetText);
