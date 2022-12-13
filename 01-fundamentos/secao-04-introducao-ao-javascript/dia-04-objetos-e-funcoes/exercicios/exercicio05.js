@@ -20,4 +20,4 @@ function repeatedValue(array) {
     }
     return mostRepeated;
 }
-console.log(repeatedValue([2, 5, 3, 2, 5, 4, 5, 8, 2, 4, 3, 4, 5, 3, 4, 5, 1, 9, 0, 3]));
+console.log(repeatedValue([2, 3, 2, 5, 8, 2, 3]));
