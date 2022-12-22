@@ -19,6 +19,8 @@ const createDaysOfTheWeek = () => {
 createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
+
+// ---------- CRIA OS DIAS ------------
 const monthDays = () => {
     const days = document.getElementById('days');
     for (let day of decemberDaysList) {
@@ -39,6 +41,7 @@ const monthDays = () => {
 };
 monthDays();
 
+// ----------- CRIA BOTÃO HOLYDAY ------------
 const createHolydayButton = (string) => {
     const holydayButton = document.createElement('button');
     holydayButton.id = 'btn-holyday';
@@ -47,10 +50,11 @@ const createHolydayButton = (string) => {
 };
 createHolydayButton('Feriados');
 
+// ----------- CRIA EVENTO HOLYDAY ------------
 const holydayButton = document.getElementById('btn-holyday');
 holydayButton.addEventListener('click', () => {
     const holydays = document.getElementsByClassName('holyday');
-    for (let index in holydays) {
+    for (let index = 0; index < holydays.length; index += 1) {
         if (holydays[index].style.backgroundColor === 'green') {
             holydays[index].style.backgroundColor = 'rgb(238,238,238)';
             holydays[index].style.color = 'grey';
@@ -61,6 +65,7 @@ holydayButton.addEventListener('click', () => {
     };
 });
 
+// ---------- CRIA BOTÃO FRIDAY ----------
 const createFridayButton = (string) => {
     const fridayButton = document.createElement('button');
     fridayButton.id = 'btn-friday';
@@ -69,21 +74,22 @@ const createFridayButton = (string) => {
 };
 createFridayButton('Sexta-feira');
 
+// ---------- FRIDAY BUTTON -----------
 const fridayButton = document.getElementById('btn-friday');
 fridayButton.addEventListener('click', () => {
     const fridays = document.getElementsByClassName('friday');
-    for (let index in fridays) {
-        if (fridays[index].innerText === 'Sextou!') {
-            fridays[index].innerText = fridays[index].innerText;
+    for (let index = 0; index < fridays.length; index += 1) {
+        if (fridays[index].innerText !== 'Sextou!') {
+            fridays[index].innerText = 'Sextou!'
         } else {
-            fridays[index].innerText = 'Sextou!';
+            fridays[index].innerText = innerTextSave;
         }
     };
 });
 
-// Zoom efect --
+// --------ZOOM EFECT ----------
 const daysLi = document.getElementsByClassName('day');
-for (let index in daysLi) {
+for (let index = 0; index < daysLi.length; index += 1) {
     daysLi[index].addEventListener('mouseenter', () => {
         daysLi[index].style.fontSize = '40px';
     });
@@ -92,9 +98,10 @@ for (let index in daysLi) {
     });
 }
 
+// ------- ADD TAREFA --------
 btnAdd.addEventListener('click', () => {
-    alert('iu');
     const span = document.createElement('span');
+    span.style.display = 'block';
     span.id = 'inputTask-span'
     span.innerHTML = taskInput.value;
     myTaskDiv[0].appendChild(span);
