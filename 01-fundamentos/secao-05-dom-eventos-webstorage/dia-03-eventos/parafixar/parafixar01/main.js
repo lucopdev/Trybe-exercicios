@@ -5,12 +5,6 @@ const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 const liS = document.getElementsByTagName('li');
 
-firstLi.addEventListener('mouseover', (e) => {
-    alert('Oeeew');
-});
-
-
-
 myWebpage.style.cursor = 'pointer';
 firstLi.style.cursor = 'pointer';
 secondLi.style.cursor = 'pointer';

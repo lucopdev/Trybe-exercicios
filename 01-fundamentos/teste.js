@@ -53,4 +53,30 @@
 // }
 // console.log(generatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]));
 
-console.log('5'*'4'-'6');
+//console.log('5'*'4'-'6');
+
+
+
+
+
+
+// let A = 5;
+// let B = 2;
+// let C = 7;
+
+// let D = A;
+// A = B
+// B = C
+// C = D
+
+// // A = B
+// // B = C
+// // C = A
+// console.log(A, B, C);
+
+const numbers = [8, 10, 2, 6, 3, 7, 11, 9, 0, 5, 3, 2];
+
+let newNumbers = numbers.sort((a, b) => a - b);
+
+console.log(newNumbers);
+
