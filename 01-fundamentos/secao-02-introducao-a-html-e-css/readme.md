@@ -1,4 +1,6 @@
-O que vamos aprender?
+## Introdução ao HTML e CSS
+### O que vamos aprender?
+
 Para trabalhar com desenvolvimento de software web, você precisa de um conhecimento mais profundo sobre como a internet funciona. Você vai aprender quais são as peças que a formam e o que acontece quando você acessa um endereço de website.
 
 Esses conceitos te darão um entendimento geral do ecossistema em que você irá trabalhar, tornando você capaz de conversar de igual para igual com outras pessoas desenvolvedoras sobre o seu trabalho. 🗣🌎
