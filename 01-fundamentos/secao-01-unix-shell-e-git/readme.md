@@ -1,35 +1,34 @@
-Fundamentos do Desenvolvimento Web
+### Introdução
+
 O que vamos aprender?
-Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar sua carreira no mundo do desenvolvimento Web, virando uma pessoa preparada para os módulos de Front-end e Back-end. Vamos te guiar, etapa a etapa, por toda essa jornada!
+O Unix é um sistema operacional popular que foi lançado em 1969 e ganhou muitas das variações que se tornaram os principais sistemas operacionais do mercado. Vamos aprender como funciona o Unix e como interagir com ele através do terminal, utilizando o Bash.
 
-Dividimos a introdução em quatro partes:
-Pra começar, você vai estudar um pouco sobre um famoso tipo de sistema operacional chamado UNIX. Vamos colocar a mão na massa e executar alguns comandos no terminal.
+Os principais pontos abordados serão:
 
-Depois de entender como os comandos funcionam e de já ter criado seus primeiros scripts, você vai aprender a usar o Git para guardá-los de forma segura. Além disso, você também entenderá o que é a Internet e como ela funciona.
+Quais são seus principais componentes?
 
-Então, começaremos a parte mais divertida: o desenvolvimento web. Aqui você vai aprender a estruturar documentos HTML, estilizá-los com o CSS e criar comportamentos customizados com o JavaScript!
+Quais são suas variações?
 
-Após esse primeiro ciclo de aprendizado, você aprenderá sobre como criar sites responsivos e com CSS elegante e eficiente.
+Arquivos e processos, o que são?
 
-Aprenderá também a como utilizar o JavaScript em sua plenitude, utilizando recursos avançados como HOF, Código assíncrono, Testes unitários entre outras coisas incríveis!
+Qual a sua estrutura de diretórios?
+
+O que é o terminal?
+
+Comandos executados no Shell.
 
 Você será capaz de:
-Utilizar o bash.
+Executar comandos no terminal para navegar entre diretórios;
 
-Entender como a internet funciona, seus principais conceitos e terminologias.
+Executar comandos no terminal para criar e manipular arquivos e diretórios;
 
-Utilizar de forma confortável o Git e o Github.
+Executar comandos no terminal para realizar buscas;
 
-Criar documentos HTML estilizados com CSS.
+Por que isso é importante?
+No desenvolvimento de software, é muito importante que você entenda como interagir de forma eficiente com o sistema operacional no qual você vai programar. Isso te poupará tempo e permitirá ser uma pessoa mais produtiva. Para isso, é primordial que você saiba os principais comandos que podem ser utilizados no terminal.
 
-Utilizar o JavaScript para adicionar comportamento às páginas web.
+Na maioria das vezes, principalmente por questões de custo, performance e facilidade de interação através do terminal, sistemas operacionais baseados em Unix são indicados como a melhor opção para você hospedar seus projetos Web.
 
-Utilizar recursos de HTML e CSS Avançado.
 
-Trabalhar com JavaScript ES6.
-
-Criar códigos assíncronos em JavaScript.
-
-Escrever testes unitários.
 
 
