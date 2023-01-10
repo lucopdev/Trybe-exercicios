@@ -17,7 +17,7 @@ const createDaysOfTheWeek = () => {
         weekDaysList.appendChild(dayListItem);
     };
 }
-createDaysOfTheWeek();
+
 
 // Escreva seu código abaixo.
 
@@ -103,39 +103,24 @@ for (let index = 0; index < daysLi.length; index += 1) {
     });
 }
 
-// ------- ADD COMPROMISSO --------
-btnAdd.addEventListener('click', () => {
-    const span = document.createElement('span');
-    span.style.display = 'block';
-    span.id = 'inputTask-span'
-    span.innerHTML = taskInput.value;
-    taskContainer[0].appendChild(span);
-});
-console.log(taskInput.value);
+const newTaskSpan = (task) => {
+    let tasksContainer = document.querySelector('.my-tasks');
+    let taskName = document.createElement('span');
+  
+    taskName.innerHTML = task;
+    tasksContainer.appendChild(taskName); // Anexando a task como filha de taskContainer
+  }
+  newTaskSpan('Projeto');
 
-// ---------- ADD TAREFA ------------
-const addTask = () => {
-    const span = document.createElement('span');
-    const div = document.createElement('div');
-    div.id = 'colorDiv';
-    div.style.backgroundColor = 'red';
-    span.id = 'inputTask-span'
-    span.innerHTML = 'Projeto';
-    myTaskDiv[0].appendChild(span);
-    myTaskDiv[0].appendChild(div);
-};
-addTask();
-
-const selectColor = () => {
-    let selectedColor;
-    const div = document.getElementById('colorDiv');
-    div.addEventListener('click', (e) => {
-        selectedColor = e.target.style.backgroundColor;
-        console.log(selectedColor);
-        return selectedColor;
-    });
-};
-selectColor();
+const newTaskDiv = (color) => {
+    const tasksContainer = document.querySelector('.my-tasks');
+    const newTask = document.createElement('div');
+  
+    newTask.className = 'task';
+    newTask.style.backgroundColor = color;
+    tasksContainer.appendChild(newTask); // Adiciona newTask como filho de tasksContainer
+  }
+  newTaskDiv('green');
 
 const colorDays = () => {
     const days = document.getElementById('days');
@@ -145,3 +130,64 @@ const colorDays = () => {
         });
     };
 colorDays();
+
+  const setTaskClass = () => {
+    const selectedTask = document.getElementsByClassName('task selected');
+    const myTasks = document.querySelector('.task');
+    myTasks.addEventListener('click', (event) => {
+      if (selectedTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  }
+setTaskClass();
+
+const setDayColor = () => {
+    const selectedTask = document.getElementsByClassName('task selected');
+    const days = document.querySelector('#days');
+    const taskDiv = document.querySelector('.task');
+    const taskColor = taskDiv.style.backgroundColor;
+    
+    days.addEventListener('click', (event) => {
+      const eventTargetColor = event.target.style.color;
+      if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+        let color = selectedTask[0].style.backgroundColor; // Pega a cor de fundo do primeiro elemento salvo na variável "selectedTask" e salva na variável "color"
+        event.target.style.color = color; // atribui a cor salva na variável "color" ao evento alvo
+      } else if (eventTargetColor === taskColor) {
+        event.target.style.color = 'rgb(119,119,119)';  // Altera a cor de fundo do evento alvo para "rgb(119, 119, 119)"
+      }
+    });
+  }
+setDayColor();
+
+const addNewTask = () => {
+    const getInputField = document.querySelector('#task-input');
+    const addInputButton = document.querySelector('#btn-add');
+    const getTaskList = document.querySelector('.task-list');
+  
+    addInputButton.addEventListener('click', () => {
+      if (getInputField.value.length > 0) {
+        const newLi = document.createElement('li');
+        newLi.innerText = getInputField.value;
+  
+        getTaskList.appendChild(newLi);
+        getInputField.value = '';
+      } else {
+        alert('Error: Digite ao menos 1 caractere.');
+      }
+    });
+  
+    getInputField.addEventListener('keyup', (event) => {
+      if (event.key === 'Enter' && getInputField.value.length > 0) {
+        const newLi = document.createElement('li');
+        newLi.innerText = getInputField.value;
+  
+        getTaskList.appendChild(newLi);
+        getInputField.value = '';
+      }
+    });
+  }
+  addNewTask();
+  
