@@ -4,17 +4,14 @@
 
  ## Módulo 1 Fundamentos
 
-  #### 1. Unix & Bash
+  #### 1. Unix, Shell e Git
   
   - [x] Dia 01: Unix & bash - Parte 1
   - [x] Dia 02: Unix & Bash - Parte 2
-  
-  #### 2. Git & GitHub
-  
-  - [x] Dia 01: O que é e para que serve
-  - [x] Dia 02: Entendento os comandos
-  
-  #### 3. Introdução à HTML & CSS
+  - [x] Dia 03: O que é e para que serve
+  - [x] Dia 04: Entendento os comandos
+
+  #### 2. Introdução à HTML & CSS
   
   - [x] Dia 01: Estrutura de página
   - [x] Dia 02: Primeiros passos em CSS
@@ -22,25 +19,25 @@
   - [x] Dia 04: HTML Semântico
   - [x] Dia 05: Projeto - Lessons Learned
   
-  #### 4. Introdução à JavaScript
+  #### 3. Introdução à JavaScript
   
   - [x] Dia 01: Primeiros passos
   - [x] Dia 02: Array e loop For
   - [x] Dia 03: Lógica de Programação e Algoritmos
   - [x] Dia 04: Objetos e funções
   - [x] Dia 05: JavaScript ES6 - let, const, arrow functions e template literals
-  - [ ] Dia 06: Projeto - Playground Functions
+  - [x] Dia 06: Projeto - Playground Functions
   
-  #### 5. JavaScript: DOM, Eventos e Web Storage
+  #### 4. JavaScript: DOM, Eventos e Web Storage
   
-  - [ ] Dia 01: DOM e seletores
-  - [ ] Dia 02: Trabalhando com elementos
-  - [ ] Dia 03: Eventos
-  - [ ] Dia 04: Web Storage
-  - [ ] Dia 05: Arte com Pixels
-  - [ ] Dia 06: Projetos Bônus
+  - [x] Dia 01: DOM e seletores
+  - [x] Dia 02: Trabalhando com elementos
+  - [x] Dia 03: Eventos
+  - [x] Dia 04: Web Storage
+  - [x] Dia 05: Arte com Pixels
+  - [x] Dia 06: Projetos Bônus
   
-  #### 6. HTML e CSS: Forms, Flexbox e Resposivo
+  #### 5. HTML e CSS: Forms, Flexbox e Resposivo
   
   - [ ] Dia 01: Forms
   - [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
@@ -49,14 +46,14 @@
   - [ ] Dia 05: CSS Responsivo - Mobile First
   - [ ] Dia 06: Projeto - Trybewarts
   
-  #### 7. Introdução à JavaScript ES6 e Testes Unitários
+  #### 6. Introdução à JavaScript ES6 e Testes Unitários
   
   - [ ] Dia 01: Fluxo de exceções e manipulação de objetos
   - [ ] Dia 02: Primeiros passos em Jest
   - [ ] Dia 03: Matchers e cobertura de código
   - [ ] Dia 04: Projeto - JavaScript Testes Unitários
   
-  #### 8. Higher Order Functions do JavaScript ES6
+  #### 7. Higher Order Functions do JavaScript ES6
   
   - [ ] Dia 01: Introdução a Higher Order Functions
   - [ ] Dia 02: Higher Order Functions - forEach, find, some, every, sort
