@@ -3,6 +3,7 @@ const buttonsContainer = document.getElementsByClassName('buttons-container');
 const btnAdd = document.getElementById('btn-add');
 const taskInput = document.getElementById('task-input');
 const myTaskDiv = document.getElementsByClassName('my-tasks');
+const taskContainer = document.getElementsByClassName('tasks-container');
 
 const createDaysOfTheWeek = () => {
     const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
@@ -74,19 +75,23 @@ const createFridayButton = (string) => {
 };
 createFridayButton('Sexta-feira');
 
-// ---------- FRIDAY BUTTON -----------
-const fridayButton = document.getElementById('btn-friday');
-fridayButton.addEventListener('click', () => {
-    const fridays = document.getElementsByClassName('friday');
-    for (let index = 0; index < fridays.length; index += 1) {
-        if (fridays[index].innerText !== 'Sextou!') {
-            fridays[index].innerText = 'Sextou!'
-        } else {
-            fridays[index].innerText = innerTextSave;
-        }
-    };
-});
+// ---------- FRIDAY BUTTON EVENT -----------
+const changeFridayText = (fridaysArray) => {
+    const fridayButton = document.getElementById('btn-friday');
+    fridayButton.addEventListener('click', () => {
+        const fridays = document.getElementsByClassName('friday');
 
+        for (let index = 0; index < fridays.length; index += 1) {
+            if (fridays[index].innerText !== 'Sextou!') {
+                fridays[index].innerText = 'Sextou!'
+            } else {
+                fridays[index].innerText = fridaysArray[index];
+            }
+        };
+    });
+};
+const decemberFridays = [4, 11, 18, 25];
+changeFridayText(decemberFridays);
 // --------ZOOM EFECT ----------
 const daysLi = document.getElementsByClassName('day');
 for (let index = 0; index < daysLi.length; index += 1) {
@@ -98,12 +103,45 @@ for (let index = 0; index < daysLi.length; index += 1) {
     });
 }
 
-// ------- ADD TAREFA --------
+// ------- ADD COMPROMISSO --------
 btnAdd.addEventListener('click', () => {
     const span = document.createElement('span');
     span.style.display = 'block';
     span.id = 'inputTask-span'
     span.innerHTML = taskInput.value;
-    myTaskDiv[0].appendChild(span);
+    taskContainer[0].appendChild(span);
 });
 console.log(taskInput.value);
+
+// ---------- ADD TAREFA ------------
+const addTask = () => {
+    const span = document.createElement('span');
+    const div = document.createElement('div');
+    div.id = 'colorDiv';
+    div.style.backgroundColor = 'red';
+    span.id = 'inputTask-span'
+    span.innerHTML = 'Projeto';
+    myTaskDiv[0].appendChild(span);
+    myTaskDiv[0].appendChild(div);
+};
+addTask();
+
+const selectColor = () => {
+    let selectedColor;
+    const div = document.getElementById('colorDiv');
+    div.addEventListener('click', (e) => {
+        selectedColor = e.target.style.backgroundColor;
+        console.log(selectedColor);
+        return selectedColor;
+    });
+};
+selectColor();
+
+const colorDays = () => {
+    const days = document.getElementById('days');
+        days.addEventListener('click', (e) => {
+            e.target.style.color = selectColor();
+            console.log(selectColor);
+        });
+    };
+colorDays();

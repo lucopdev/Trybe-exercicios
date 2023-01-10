@@ -77,29 +77,31 @@
     width: 49%;
   }
   
-  .my-tasks div {
+  #colorDiv {
     border: 1px solid black;
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
     vertical-align: middle;
-    width: 35px;
   }
   
   .my-tasks div:hover {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
   }
   
   .my-tasks span {
+    width: fit-content;
+    margin: 0 auto;
     color: #666;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 3px;
     padding-bottom: 10px;
-    vertical-align: middle;
+    display: inline-block;
   }
   
   .tasks-container {
