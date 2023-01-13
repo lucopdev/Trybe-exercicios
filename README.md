@@ -39,9 +39,9 @@
   
   #### 5. HTML e CSS: Forms, Flexbox e Resposivo
   
-  - [ ] Dia 01: Forms
-  - [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
-  - [ ] Dia 03: CSS Flexbox - Parte 1
+  - [x] Dia 01: Forms
+  - [x] Dia 02: Bibliotecas JavaScript e Frameworks CSS
+  - [x] Dia 03: CSS Flexbox - Parte 1
   - [ ] Dia 04: CSS Flexbox - Parte 2
   - [ ] Dia 05: CSS Responsivo - Mobile First
   - [ ] Dia 06: Projeto - Trybewarts

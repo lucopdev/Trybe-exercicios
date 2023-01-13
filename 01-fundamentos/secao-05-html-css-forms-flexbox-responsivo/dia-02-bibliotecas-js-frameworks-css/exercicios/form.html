@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+  </header>
+  <main>
+    <section id="form-section">
+      <form>
+        <fieldset id="boxone" class="input-group flex-nowrap">
+          <span class="input-group-text" for="name-text-id">Nome:</span>
+          <input class="form-control" type="text" name="name-text" id="name-input-id">
+        </fieldset>
+        <fieldset id="boxtwo" class="input-group flex-nowrap">
+          <span class="input-group-text" for="email-id">E-mail:</span>
+          <input class="form-control" type="email" name="e-mail" id="email-input-id">
+        </fieldset>
+
+        <fieldset id="form-check-destiny">
+          <p>Destino Preferido:</p>
+          <fieldset class="radio form-check form-check-inline">
+            <input name="destino" class="radio form-check-input" type="radio" id="opcao1-id" value="option1">
+            <label class="form-check-label" for="opcao1-id">Cidade</label>
+          </fieldset>
+
+          <fieldset class="form-check form-check-inline">
+            <input name="destino" class="radio form-check-input" type="radio" id="opcao2-id">
+            <label for="opcao2-id" class="form-check-label">Campo</label>
+          </fieldset>
+
+          <fieldset class="radio form-check form-check-inline">
+            <input name="destino" class="radio form-check-input" type="radio" id="opcao3-id" value="option3">
+            <label for="opcao3-id" class="form-check-label">Praia</label>
+          </fieldset>
+
+          <fieldset class="radio form-check form-check-inline">
+            <input name="destino" class="radio form-check-input" type="radio" id="opcao4-id" value="option4">
+            <label for="opcao4-id" class="form-check-label">Montanhas</label>
+          </fieldset>
+        </fieldset>
+
+        <fieldset id="textarea-container" class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+            name="text-area"></textarea>
+          <label for="floatingTextarea">Por que você deveria ser escolhido para a TrybeTrip?</label>
+        </fieldset>
+
+        <fieldset id="date-id">
+          <label for="date-area-id">Qual a melhor data para sua viagem?</label>
+          <input type="datetime-local" name="date-area" id="date-input-id">
+        </fieldset>
+
+        <fieldset>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckOportunity">
+            <label class="form-check-label" for="flexSwitchCheckOportunity">Gostaria de receber outras incríveis
+              oportunidades oferecidas pela Trybe?</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchAgree">
+            <label class="form-check-label" for="flexSwitchAgree">Concordo que imagens das minhas férias poderão
+              ser usadas na divulgação de concursos
+              futuros.</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="d-grid gap-2">
+          <button class="btn btn-primary" type="submit" id="send-btn-id">Enviar</button>
+          <input class="btn btn-primary" type="button" id="reset-btn-id" value="Apagar">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+  <script src="dist/js/DatePickerX.min.js"></script>
+</body>
+</html>
