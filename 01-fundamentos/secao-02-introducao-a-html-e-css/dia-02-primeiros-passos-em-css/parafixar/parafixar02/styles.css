@@ -1,0 +1,20 @@
+h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+p{
+    font-size: 300%;
+    font-style:italic;
+    line-height: 30px;
+    text-decoration: underline;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+.marron{
+    background-color: rgb(126, 51, 51);
+}

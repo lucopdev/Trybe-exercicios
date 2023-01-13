@@ -1,0 +1,54 @@
+header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#form-section {
+  width: 520px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#radios {
+  text-align: left;
+  margin: 5px 0 5px 0px;
+}
+
+#radios input {
+  margin-right: 50px;
+}
+
+#textarea-container {
+  text-align: left;
+}
+
+#textarea-container label {
+  display: block;
+}
+
+#textarea-container textarea {
+  margin-top: 5px;
+}
+
+#date-id {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#send-id, #reset-id {
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+}

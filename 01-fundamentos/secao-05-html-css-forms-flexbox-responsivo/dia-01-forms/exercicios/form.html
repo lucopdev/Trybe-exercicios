@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <header>
+    <h1>TrybeTrip</h1>
+    <h3>Concorra a uma viagem para Groelândia!</h3>
+  </header>
+  <main>
+    <section id="form-section">
+      <form>
+        <fieldset id="boxeone">
+          <label for="name-text-id">Nome:</label>
+          <input type="text" name="name-text" id="name-input-id">
+        </fieldset>
+        <fieldset id="boxtwo">
+          <label for="email-id">Email:</label>
+          <input type="email" name="e-mail" id="email-input-id">
+        </fieldset>
+        <fieldset id="radios">
+          <p>Destino Preferido:</p>
+          <label for="opcao1-id">Cidade</label>
+          <input type="radio" name="destino" class="radio" id="opcao1-id">
+          <label for="opcao2-id">Campo</label>
+          <input type="radio" name="destino" class="radio" id="opcao2-id">
+          <label for="opcao3-id">Praia</label>
+          <input type="radio" name="destino" class="radio" id="opcao3-id">
+          <label for="opcao4-id">Montanhas</label>
+          <input type="radio" name="destino" class="radio" id="opcao4-id">
+        </fieldset>
+        <fieldset id="textarea-container">
+          <label for="textarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+          <textarea name="text-area" id="textarea-id" cols="55" rows="10"></textarea>
+        </fieldset>
+        <fieldset id="date-id">
+          <label for="date-area-id">Qual a melhor data para sua viagem?</label>
+          <input type="date" name="date-area" id="date-input-id">
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="" id="oportunity">
+          <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="" id="agree">
+          <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+            futuros.</label>
+        </fieldset>
+        <button type="submit" id="send-btn-id">Enviar</button>
+        <input type="button" id="reset-btn-id" value="Apagar">
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
