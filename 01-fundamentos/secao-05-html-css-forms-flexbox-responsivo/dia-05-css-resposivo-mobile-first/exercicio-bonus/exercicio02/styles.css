@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: right;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li {    
+    color: white;
+    font-size: 20px;
+    margin: 11px 20px 0px 20px;
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+    width: 60%;
+    margin: 0px 70px 0px 20px;
+}
+
+article img {
+    width: 300px;
+    height: 220px;
+    float: left;
+    margin: 13px 10px 0px 10px;
+}
+
+article h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 50px auto;
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+article h3 {
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+article p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 30px 10px;
+    line-height: 28px;
+}
+
+.section1, .section2, .section3, .section4, .section5 {
+    margin: 100px 0px;
+}
+
+.section1 em {
+    font-size: 100%;
+}
+
+.tableSection {
+    text-align: center;
+    width: auto;
+    margin: 80px auto 0px auto;
+    padding: 20px 20px;
+}
+
+.tableSection h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.table th, .table td{
+    width: 10%;
+    border: solid 2px black;
+    font-size: 16px;
+}
+
+.section5 h3 {
+    text-align: right;
+    margin: 0px 0px 50px 0px;
+}
+
+.section5 ul {
+    text-align: right;
+}
+
+.section5 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.section5 a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px 0px 10px 0px;
+    text-align: right;
+    color: black;
+    cursor: pointer;
+    
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+aside iframe{
+    width: 450px;
+    margin: 220px 0px;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+@media screen (max-width:)
