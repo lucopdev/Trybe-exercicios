@@ -39,3 +39,5 @@ A sua aplicação deve estar preparada para lidar com esse tipo de situação, e
 Por fim, aprender a lidar com objetos e suas propriedades é essencial. Por exemplo, ao criar o sistema de cadastro de clientes, você salvou as informações em um objeto. Para manipular esses dados, é necessário utilizar alguns métodos que consigam acessar a chave, o valor e também realizar cópias do objeto.
 
 Legal, né? 🤩
+
+
