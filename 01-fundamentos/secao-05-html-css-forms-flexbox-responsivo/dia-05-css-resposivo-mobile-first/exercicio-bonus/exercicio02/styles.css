@@ -1,138 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 0px;
-    font-family: sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
 }
 
-nav {
-    text-align: right;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
-}
+@media only screen and (max-width: 414px) {
+    body {
+        background-color: rgb(211, 211, 193);
+    }
 
-header {
-    text-align: center;
-    font-size: 50px;
-    margin: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+    header {
+        background-color: red;
+        height: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-nav li {    
-    color: white;
-    font-size: 20px;
-    margin: 11px 20px 0px 20px;
-    display: inline-block;
-}
+    header ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-article {
-    display: inline-block;
-    width: 60%;
-    margin: 0px 70px 0px 20px;
-}
+    header li {
+        font-size: 15px;
+        font-weight: bolder;
+    }
 
-article img {
-    width: 300px;
-    height: 220px;
-    float: left;
-    margin: 13px 10px 0px 10px;
-}
+    h1 {
+        margin: 30px auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+    }
 
-article h1 {
-    font-size: 50px;
-    text-align: center;
-    width: 700px;
-    margin: 50px auto;
-}
+    article {
+        width: 90%;
+        margin: auto;
+    }
 
-article h2 {
-    font-size: 30px;
-    text-align: left;
-    margin: 20px 10px;
-}
+    h2 {
+        text-align: center;
+        font-size: 12px;
+    }
 
-article h3 {
-    font-size: 20px;
-    text-align: left;
-    margin: 20px 10px;
-}
+    h3 {
+        text-align: center;
+        font-size: 8px;
+    }
 
-article p {
-    font-size: 18px;
-    text-align: justify;
-    margin: 30px 10px;
-    line-height: 28px;
-}
+    p {
+        width: 80%;
+        margin: 10px auto;
+        text-align: justify;
+        font-size: 8px;
+    }
 
-.section1, .section2, .section3, .section4, .section5 {
-    margin: 100px 0px;
-}
+    .img-div {
+        text-align: center;
+        width: fit-content;
+    }
 
-.section1 em {
-    font-size: 100%;
-}
+    img {
+        width: 80%;
+    }
 
-.tableSection {
-    text-align: center;
-    width: auto;
-    margin: 80px auto 0px auto;
-    padding: 20px 20px;
-}
+    .tableSection {
+        width: 100%;
+    }
 
-.tableSection h3 {
-    text-align: center;
-    margin: 20px;
-}
+    .table {
+        width: 0 auto;
+    }
 
-.table th, .table td{
-    width: 10%;
-    border: solid 2px black;
-    font-size: 16px;
-}
+    .table tr {
+        width: fit-content;
+        border: 3px solid black;
+    }
 
-.section5 h3 {
-    text-align: right;
-    margin: 0px 0px 50px 0px;
-}
+    .table th, td {
+        max-width: 20%;
+        text-align: center;
+        border: 3px solid black;
+        font-size: 30%;
+        font-weight: bolder;
+    }
 
-.section5 ul {
-    text-align: right;
-}
+    aside {
+        display: none;
+    }
 
-.section5 li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px 10px 0px 10px;
+    footer {
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+        font-size: 10px;
+    }
 }
-
-.section5 a {
-    font-size: 16px;
-    text-decoration: none;
-    margin: 20px 0px 10px 0px;
-    text-align: right;
-    color: black;
-    cursor: pointer;
-    
-}
-
-aside {
-    display: inline-block;
-    width: 25%;
-    vertical-align: top;
-}
-
-aside iframe{
-    width: 450px;
-    margin: 220px 0px;
-}
-
-footer {
-    font-size: 16px;
-    text-align: center;
-    margin: 20px;
-    font-weight: bold;
-}
-
-@media screen (max-width:)
