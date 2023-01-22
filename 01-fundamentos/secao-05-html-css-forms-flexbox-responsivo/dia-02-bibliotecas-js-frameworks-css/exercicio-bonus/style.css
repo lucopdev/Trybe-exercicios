@@ -1,0 +1,121 @@
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --bg-input: rgb(103, 196, 103);
+  --color-principal: rgb(7, 32, 7);
+}
+
+body {
+  background-color: rgb(90, 161, 132);
+  color: var(--color-principal);
+}
+
+header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+main {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+#form-section {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px;
+  border: 2px solid rgb(31, 70, 21);
+  border-radius: 5px;
+}
+
+.form-check-input {
+  background-color: green;
+}
+
+#boxone , #boxtwo {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#boxone input , #boxtwo input {
+  width: 100%;
+}
+
+#name-input-id:focus {
+  background-color: rgb(160, 225, 160);
+}
+
+#email-input-id:focus {
+  background-color: rgb(160, 225, 160);
+}
+
+.input-group-text {
+  background-color: var(--bg-input);
+  border: 1px solid green;
+}
+
+.form-control {
+  background-color: rgb(127, 206, 127);
+  border: 1px solid green;
+}
+
+#form-check-destiny {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form-check {
+  margin: 10px 30px;
+}
+
+#textarea-container {
+  text-align: left;
+}
+
+#textarea-container label {
+  display: block;
+}
+
+#textarea-container textarea {
+  margin-top: 5px;
+  height: 100px;
+  resize: none;
+}
+
+#floatingTextarea:focus {
+  background-color: rgb(160, 225, 160);
+}
+
+#date-id {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.d-grid {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: var(--color-principal);
+  border: 2px solid green;
+}
+
+.btn:hover {
+  background-color: green;
+  border: 2px solid green;
+}
+
+.btn:active:hover {
+  background-color: rgb(0, 85, 0);
+  border: 2px solid green;
+}

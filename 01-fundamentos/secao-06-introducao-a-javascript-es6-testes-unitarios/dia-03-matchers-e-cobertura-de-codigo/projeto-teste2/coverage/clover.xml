@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1674354366273" clover="3.2.0">
+  <project timestamp="1674354366273" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="20" coveredelements="20" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="exercicio-bonus.js" path="/home/lucopdev/Trybe/Trybe-exercicios/01-fundamentos/secao-06-introducao-a-javascript-es6-testes-unitarios/dia-03-matchers-e-cobertura-de-codigo/projeto-teste2/exercicio-bonus.js">
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="44" count="3" type="stmt"/>
+      <line num="45" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

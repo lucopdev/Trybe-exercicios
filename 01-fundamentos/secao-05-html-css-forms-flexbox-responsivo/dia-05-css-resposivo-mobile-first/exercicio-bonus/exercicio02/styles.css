@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        background-color: rgb(211, 211, 193);
+    }
+
+    header {
+        background-color: red;
+        height: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header li {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    h1 {
+        margin: 30px auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    article {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    p {
+        width: 80%;
+        margin: 10px auto;
+        text-align: justify;
+        font-size: 8px;
+    }
+
+    .img-div {
+        text-align: center;
+        width: fit-content;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .tableSection {
+        width: 100%;
+    }
+
+    .table {
+        width: 0 auto;
+    }
+
+    .table tr {
+        width: fit-content;
+        border: 3px solid black;
+    }
+
+    .table th, td {
+        max-width: 20%;
+        text-align: center;
+        border: 3px solid black;
+        font-size: 30%;
+        font-weight: bolder;
+    }
+
+    aside {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+        font-size: 10px;
+    }
+}

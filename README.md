@@ -42,7 +42,7 @@
   - [x] Dia 01: Forms
   - [x] Dia 02: Bibliotecas JavaScript e Frameworks CSS
   - [x] Dia 03: CSS Flexbox - Parte 1
-  - [ ] Dia 04: CSS Flexbox - Parte 2
+  - [x] Dia 04: CSS Flexbox - Parte 2
   - [ ] Dia 05: CSS Responsivo - Mobile First
   - [ ] Dia 06: Projeto - Trybewarts
   
