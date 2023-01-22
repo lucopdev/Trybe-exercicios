@@ -24,10 +24,17 @@ describe('testa com mais letras do alfabeto', () => {
   it('testa se outras letras vão ser convertidas na função encode', () => {
     expect(encode('ola tribo')).toBe('4l1 tr3b4');
   });
-});
-
-describe('testa com mais letras do alfabeto', () => {
   it('testa se outras letras vão ser convertidas na função encode', () => {
     expect(decode('4l1 tr3b4')).toBe('ola tribo');
+  });
+});
+
+describe('testa o comprimento da string', () => {
+  it('testa se a string retornada tem o mesmo número de caracteres que a string inicial na função encode', () => {
+    expect(encode('ola tribo')).toHaveLength(9);
+  });
+
+  it('testa se a string retornada tem o mesmo número de caracteres que a string inicial na função decode', () => {
+    expect(decode('ola tribo')).toHaveLength(9);
   });
 });
