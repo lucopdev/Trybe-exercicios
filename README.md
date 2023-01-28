@@ -51,14 +51,14 @@
   - [x] Dia 01: Fluxo de exceções e manipulação de objetos
   - [x] Dia 02: Primeiros passos em Jest
   - [x] Dia 03: Matchers e cobertura de código
-  - [ ] Dia 04: Projeto - JavaScript Testes Unitários
+  - [x] Dia 04: Projeto - JavaScript Testes Unitários
   
   #### 7. Higher Order Functions do JavaScript ES6
   
-  - [ ] Dia 01: Introdução a Higher Order Functions
-  - [ ] Dia 02: Higher Order Functions - forEach, find, some, every, sort
-  - [ ] Dia 03: Higher Order Functions - map e filter
-  - [ ] Dia 04: Higher Order Functions - reduce
+  - [x] Dia 01: Introdução a Higher Order Functions
+  - [x] Dia 02: Higher Order Functions - forEach, find, some, every, sort
+  - [x] Dia 03: Higher Order Functions - map e filter
+  - [x] Dia 04: Higher Order Functions - reduce
   - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
   - [ ] Dia 06: Projeto - Zoo functions
     
