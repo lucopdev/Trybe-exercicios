@@ -43,22 +43,22 @@
   - [x] Dia 02: Bibliotecas JavaScript e Frameworks CSS
   - [x] Dia 03: CSS Flexbox - Parte 1
   - [x] Dia 04: CSS Flexbox - Parte 2
-  - [ ] Dia 05: CSS Responsivo - Mobile First
-  - [ ] Dia 06: Projeto - Trybewarts
+  - [x] Dia 05: CSS Responsivo - Mobile First
+  - [x] Dia 06: Projeto - Trybewarts
   
   #### 6. Introdução à JavaScript ES6 e Testes Unitários
   
-  - [ ] Dia 01: Fluxo de exceções e manipulação de objetos
-  - [ ] Dia 02: Primeiros passos em Jest
-  - [ ] Dia 03: Matchers e cobertura de código
-  - [ ] Dia 04: Projeto - JavaScript Testes Unitários
+  - [x] Dia 01: Fluxo de exceções e manipulação de objetos
+  - [x] Dia 02: Primeiros passos em Jest
+  - [x] Dia 03: Matchers e cobertura de código
+  - [x] Dia 04: Projeto - JavaScript Testes Unitários
   
   #### 7. Higher Order Functions do JavaScript ES6
   
-  - [ ] Dia 01: Introdução a Higher Order Functions
-  - [ ] Dia 02: Higher Order Functions - forEach, find, some, every, sort
-  - [ ] Dia 03: Higher Order Functions - map e filter
-  - [ ] Dia 04: Higher Order Functions - reduce
+  - [x] Dia 01: Introdução a Higher Order Functions
+  - [x] Dia 02: Higher Order Functions - forEach, find, some, every, sort
+  - [x] Dia 03: Higher Order Functions - map e filter
+  - [x] Dia 04: Higher Order Functions - reduce
   - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
   - [ ] Dia 06: Projeto - Zoo functions
     
