@@ -9,6 +9,4 @@ const authorUnique = () => {
       && (bookSome.author.name !== book.author.name)));
 }
 
-// comentariuozinho
-
 console.log(authorUnique());
