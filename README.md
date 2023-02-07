@@ -59,8 +59,8 @@
   - [x] Dia 02: Higher Order Functions - forEach, find, some, every, sort
   - [x] Dia 03: Higher Order Functions - map e filter
   - [x] Dia 04: Higher Order Functions - reduce
-  - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
-  - [ ] Dia 06: Projeto - Zoo functions
+  - [x] Dia 05: Spread operator, parâmetro rest, destructuring e mais
+  - [x] Dia 06: Projeto - Zoo functions
     
   ## Módulo 2 Front-End
 
