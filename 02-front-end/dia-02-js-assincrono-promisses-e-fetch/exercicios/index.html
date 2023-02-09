@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercicio01</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Microblogs</h1>
+    <div class="select-section">
+      <select name="users-select" id="users-select" required>
+        <option value="" disabled selected>Select a person</option>
+      </select>
+    </div>
+  
+    <div id="posts-section" class="invisible">
+      <div id="featured-post">
+        <h2 id="featured-post-title"></h2>
+        <p id="featured-post-body"></p>
+  
+        <div id="featured-post-comments"></div>
+      </div>
+  
+      <div id="related-posts-section"></div>
+    </div>
+  
+    <div class="error-section">
+      <p id="error-message" class="invisible"></p>
+    </div>
+  </div>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100vw;
+  color: white;
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+body {
+  background-color: rgb(62, 64, 66);
+}
+
+#general-container {
+  width: 100vw;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 450px;
+  background-color: rgba(250, 235, 215, 0.13);
+  border-radius: 5px;
+  padding: 30px;
+  color: rgb(97, 148, 163);
+}
+
+#output-container {
+  background-color: rgba(53, 53, 53, 0.356);
+  border-radius: 5px;
+}
+
+#output {
+  padding: 15px;
+}
+
+#btn-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#btn-generate {
+  margin-bottom: 40px;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  background-color: rgb(23, 80, 145);
+  border-radius: 5px;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  font-size: 17px;
+}
+
+.fa {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(250, 235, 215, 0.13);
+  color: white;
+}
+
+@media screen and (max-width: 450px) {
+  #general-container {
+    font-size: clamp(1vw, 3vw, 4vw);
+  }
+
+  #display-container {
+    width: 90vw;
+    padding: clamp(1vh, 2vh, 3vh);
+    font-size: clamp(1vw, 3vw, 4vw);
+    overflow: hidden;
+  }
+
+  #btn-generate {
+    width: clamp(15vw, 25vw, 30vw);
+    height: clamp(2vh, 3vh, 4vh);
+    font-size: clamp(1vw, 3vw, 4vw);
+  }
+}

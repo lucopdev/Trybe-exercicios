@@ -1,0 +1,11 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "dependencies": {
+    "vite": "^4.1.1"
+  }
+}
