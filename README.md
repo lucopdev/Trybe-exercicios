@@ -59,15 +59,15 @@
   - [x] Dia 02: Higher Order Functions - forEach, find, some, every, sort
   - [x] Dia 03: Higher Order Functions - map e filter
   - [x] Dia 04: Higher Order Functions - reduce
-  - [ ] Dia 05: Spread operator, parâmetro rest, destructuring e mais
-  - [ ] Dia 06: Projeto - Zoo functions
+  - [x] Dia 05: Spread operator, parâmetro rest, destructuring e mais
+  - [x] Dia 06: Projeto - Zoo functions
     
   ## Módulo 2 Front-End
 
   #### 1. Introdução ao Frontend e JavaScript assíncrono
   
-  - [ ] Dia 01: Ambiente de desenvolvimento
-  - [ ] Dia 02: JavaScript Assíncrono - Promises e fetch
+  - [x] Dia 01: Ambiente de desenvolvimento
+  - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
   - [ ] Dia 03: Prática - Casa de câmbio
   - [ ] Dia 04: Async, await e testes assíncronos
   - [ ] Dia 05: Projeto - Carrinho de compras

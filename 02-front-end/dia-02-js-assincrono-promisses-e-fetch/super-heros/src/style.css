@@ -1,0 +1,75 @@
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-image: linear-gradient(170deg, rgba(255, 0, 0, 0.541), rgba(89, 0, 255, 0.616), rgb(255, 175, 84), rgba(255, 16, 156, 0.582), rgba(228, 120, 255, 0.548), rgb(185, 132, 245), rgb(220, 231, 243));
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  h1 {
+    color: antiquewhite;
+  }
+
+  #outer-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(54, 33, 63);
+    border-radius: 5px;
+    border: dashed 25px rgb(124, 9, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+  }
+
+  #hero-img {
+    visibility: hidden;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+  }
+
+  #hero-name {
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  #action {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: antiquewhite;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid antiquewhite;
+  }
+
+  #action:active {
+    background-color: rgba(0, 0, 0, 0.205);
+  }
+
+  @media screen and (max-width: 400px) {
+    
+    body {
+      font-size: 80%;
+    }
+
+    #container {
+      width: 90vw;
+    }
+  }

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(211, 212, 196);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 40vw;
+  height: 50vh;
+}
+
+#get-quote {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+#quote {
+  text-align: center;
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+}
+
+#author {
+  align-self: flex-end;
+  text-align: right;
+  margin: 20px;
+  color: red;
+}
+
+#get-quote {
+  border: none;
+  background-color: rgb(34, 100, 199);
+  color: antiquewhite;
+  border-radius: 5px;
+}
+
+#get-quote:active {
+  background-color: rgb(81, 125, 192);
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    width: 90vw;
+  }
+}

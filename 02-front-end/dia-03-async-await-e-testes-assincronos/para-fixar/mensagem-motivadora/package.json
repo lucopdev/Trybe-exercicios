@@ -1,0 +1,17 @@
+{
+  "name": "mensagem-motivadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.1.1"
+  }
+}
