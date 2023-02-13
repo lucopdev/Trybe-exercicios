@@ -1,0 +1,26 @@
+{
+  "name": "exercise-casa-de-cambio",
+  "version": "1.0.0",
+  "description": "O projeto da casa de câmbio é uma aplicação que busca a conversão da taxa de uma moeda para diversas outras. O protótipo da aplicação está [nesse link](https://www.figma.com/file/H3gBEiF0F94VESCGx9DD17/Casa-de-C%C3%A2mbio?node-id=0%3A1).",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucopdev/exercise-casa-de-cambio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucopdev/exercise-casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/lucopdev/exercise-casa-de-cambio#readme",
+  "dependencies": {
+    "sweetalert2": "^11.7.1",
+    "vite": "^4.1.1"
+  }
+}

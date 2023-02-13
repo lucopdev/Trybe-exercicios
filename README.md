@@ -68,8 +68,8 @@
   
   - [x] Dia 01: Ambiente de desenvolvimento
   - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
-  - [ ] Dia 03: Prática - Casa de câmbio
-  - [ ] Dia 04: Async, await e testes assíncronos
+  - [x] Dia 03: Prática - Casa de câmbio
+  - [x] Dia 04: Async, await e testes assíncronos
   - [ ] Dia 05: Projeto - Carrinho de compras
   
   #### 2. Introdução ao React

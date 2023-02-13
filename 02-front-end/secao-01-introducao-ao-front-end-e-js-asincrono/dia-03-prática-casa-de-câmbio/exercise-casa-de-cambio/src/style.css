@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100vh;
+  background-color: rgb(37, 41, 46);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 75px;
+  color: antiquewhite;
+}
+
+h2 {
+  font-size: 14px;
+  margin-left: 5px;
+  color: antiquewhite;
+}
+
+#span-title {
+  color: rgb(143, 253, 189);
+}
+
+#input-container {
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#input {
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-left: 20px;
+  color: rgb(59, 59, 59);
+}
+
+#submit {
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(143, 253, 189);
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  overflow: scroll;
+  background-color: #35383F;
+  width: 75vw;
+  height: 60vh;
+  border-radius: 25px;
+  border: 80px solid #35383F;
+}
+
+*::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(42, 45, 50);
+}
+
+*::-webkit-scrollbar-corner {
+  background-color: #35383F; 
+}
+
+.div-item {
+  background-color: rgb(42, 45, 50);
+  width: 160px;
+  height: 45px;
+  margin: 5px;
+
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#coin-text {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+
+#span {
+  margin-top: -23px;
+  text-align: right;
+  margin-right: 5px;
+  color: yellow;
+}
