@@ -1,0 +1,21 @@
+{
+  "name": "consulta-de-cep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "type": "module",
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.1",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
