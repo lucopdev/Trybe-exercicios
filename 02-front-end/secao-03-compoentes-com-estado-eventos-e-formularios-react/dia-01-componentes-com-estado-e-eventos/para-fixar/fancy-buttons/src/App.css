@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.App-section {
+  width: 400px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+

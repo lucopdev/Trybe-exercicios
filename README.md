@@ -74,19 +74,19 @@
   
   #### 2. Introdução ao React
   
-  - [ ] Dia 01: 'Hello, world!' no React!
-  - [ ] Dia 02: Componentes React
-  - [ ] Dia 03: Projeto - Solar System
+  - [x] Dia 01: 'Hello, world!' no React!
+  - [x] Dia 02: Componentes React
+  - [x] Dia 03: Projeto - Solar System
    
    #### 3. Componentes com Estado, Eventos e Formulários com React
    
-  - [ ] Dia 01: Componentes com estado e eventos
-  - [ ] Dia 02: Formulários no React
-  - [ ] Dia 03: Projeto - Tryunfo
+  - [x] Dia 01: Componentes com estado e eventos
+  - [x] Dia 02: Formulários no React
+  - [x] Dia 03: Projeto - Tryunfo
    
    #### 4. Ciclo de Vida de Componentes e React Router
   
-  - [ ] Dia 01: Ciclo de vida de componentes
+  - [x] Dia 01: Ciclo de vida de componentes
   - [ ] Dia 02: React Router
   - [ ] Dia 03: Projeto - TrybeTunes
    
