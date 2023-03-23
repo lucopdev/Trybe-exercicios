@@ -70,7 +70,7 @@
   - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
   - [x] Dia 03: Prática - Casa de câmbio
   - [x] Dia 04: Async, await e testes assíncronos
-  - [ ] Dia 05: Projeto - Carrinho de compras
+  - [x] Dia 05: Projeto - Carrinho de compras
   
   #### 2. Introdução ao React
   
@@ -87,8 +87,8 @@
    #### 4. Ciclo de Vida de Componentes e React Router
   
   - [x] Dia 01: Ciclo de vida de componentes
-  - [ ] Dia 02: React Router
-  - [ ] Dia 03: Projeto - TrybeTunes
+  - [x] Dia 02: React Router
+  - [x] Dia 03: Projeto - TrybeTunes
    
   #### 5. Metodologias Ágeis
   
