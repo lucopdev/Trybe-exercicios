@@ -1,5 +1,5 @@
-Introdução
-O que vamos aprender?
+## Introdução
+### O que vamos aprender?
 Você já aprendeu a usar as principais ferramentas que a react-testing-library oferece. Agora vamos entender mais sobre mocks!
 
 As Mock functions são ferramentas que nos permitem simular o comportamento de funções reais.
@@ -19,4 +19,3 @@ Para manter uma boa cobertura de testes de maneira sustentável, também é nece
 
 Simular ou mockar funções é a forma mais prática e performática de realizar testes confiáveis e controlar seu comportamento.
 
-Neste módulo, você vai aprender as técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.
