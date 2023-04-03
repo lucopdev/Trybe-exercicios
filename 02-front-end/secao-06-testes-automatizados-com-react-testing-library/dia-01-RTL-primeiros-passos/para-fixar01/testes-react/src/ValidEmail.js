@@ -14,9 +14,9 @@ const ValidEmail = (props) => {
     <div>
       <h2 data-testid="id-email-user">{`Valor: ${email}`}</h2>
       {email && (
-        <p data-testid="is-valid" className={ verifyEmail(email) ? 'valid' : 'invalid'}>
+        <h2 data-testid="is-valid" className={ verifyEmail(email) ? 'valid' : 'invalid'}>
           {(verifyEmail(email) ? 'Email Válido': 'Email Inválido')}
-        </p>
+        </h2>
       )}
     </div>
   );

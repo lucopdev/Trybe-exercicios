@@ -11,7 +11,10 @@ test('Verificando se o botão e o campo email estão funcionando.', async () => 
 
   const EMAIL_USER = 'email@email.com';
 
-  const textEmail = screen.getByTestId('id-email-user');
+  const textEmail = screen.getByRole('heading', {
+    name: 'Valor:',
+    level: 2,
+  });
   expect(textEmail).toBeInTheDocument();
   expect(textEmail).toHaveTextContent('Valor:');
 

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Trybe</title>
+  <script src="https://unpkg.com/redux@latest/dist/redux.js"></script>
+  <style>
+    body {
+      color: white;
+      background-color: #333;
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Minha Aplicação</h1>
+    <p>Status: Você está <span id="status">Offline</span></p>
+    <button id="toggle-theme">Light Mode</button>
+    <button id="toggle-status">Ficar Online</button>
+  </div>
+  <script>
+    const INITIAL_STATE = {
+      status: 'offline',
+      theme: 'dark',
+    };
+    const reducer = (state = INITIAL_STATE, action) => {
+      switch (action.type) {
+        case 'LIGHT_OR_DARK':
+          if (state.theme === 'dark') {
+            return {
+              ...state,
+              theme: 'light',
+            }
+          } else {
+            return {
+              ...state,
+              theme: 'dark',
+            }
+          }
+        case 'ONLINE_OR_OFFLINE':
+          if (state.status === 'offline') {
+            return {
+              ...state,
+              status: 'online',
+            }
+          } else {
+            return {
+              ...state,
+              status: 'offline',
+            }
+          }
+      }
+    };
+    const store = Redux.createStore(reducer);
+    const themeButton = document.getElementById('toggle-theme');
+    const statusButton = document.getElementById('toggle-status');
+    const container = document.getElementsByClassName('container')[0];
+    const status = document.getElementById('status');
+
+    themeButton.addEventListener('click', () => {
+      store.dispatch({ type: 'LIGHT_OR_DARK' });
+    });
+
+    statusButton.addEventListener('click', () => {
+      store.dispatch({ type: 'ONLINE_OR_OFFLINE' });
+    });
+
+    store.subscribe(() => {
+      const globalState = store.getState();
+      if (globalState.theme === "light") {
+        document.body.style.backgroundColor = 'white';
+        container.style.color = 'black';
+        themeButton.innerHTML = 'Dark Mode';
+      }
+      if (globalState.theme === "dark") {
+        document.body.style.backgroundColor = '#333333';
+        container.style.color = 'white';
+        themeButton.innerHTML = 'Light Mode';
+      }
+      if (globalState.status === 'online') {
+        statusButton.innerHTML = 'Ficar offline';
+        status.innerHTML = 'Online';
+      }
+      if (globalState.status === 'offline') {
+        statusButton.innerHTML = 'Ficar online';
+        status.innerHTML = 'Offline';
+      }
+    });
+
+  </script>
+</body>
+</html>
