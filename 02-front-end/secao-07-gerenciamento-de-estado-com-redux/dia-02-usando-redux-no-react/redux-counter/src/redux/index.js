@@ -1,7 +1,8 @@
 import { legacy_createStore as createStore } from 'redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
-import counterReducer from '../redux/reducers/counterReducer';
 
-const store = createStore(counterReducer, composeWithDevTools());
+import rootReducer from './reducers';
+
+const store = createStore(rootReducer, composeWithDevTools());
 
 export default store;

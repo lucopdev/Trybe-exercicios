@@ -31,8 +31,8 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  countState: state.count,
-  clicksState: state.clicks,
+  countState: state.counterReducer.count,
+  clicksState: state.counterReducer.clicks,
 });
 
 export default connect(mapStateToProps)(App);
