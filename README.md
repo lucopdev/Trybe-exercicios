@@ -138,7 +138,7 @@
   #### 2. Introdução à SQL
 
   - [x] Dia 01: Banco de dados SQL
-  - [ ] Dia 02: Encontrando dados em um banco de dados
+  - [x] Dia 02: Encontrando dados em um banco de dados
   - [ ] Dia 03: Filtrando dados de forma específica
   - [ ] Dia 04: Manipulando tabelas
   - [ ] Dia 05: Projeto - All For One
