@@ -131,13 +131,13 @@
   #### 1. Docker: Utilizando Containers
 
   - [x] Dia 01: Utilizando Containers Docker
-  - [ ] Dia 02: Manipulando Imagens no Docker
-  - [ ] Dia 03: Orquestrando Containers com Docker Compose
-  - [ ] Dia 04: Projeto - Docker Todo-List
+  - [x] Dia 02: Manipulando Imagens no Docker
+  - [x] Dia 03: Orquestrando Containers com Docker Compose
+  - [x] Dia 04: Projeto - Docker Todo-List
 
   #### 2. Introdução à SQL
 
-  - [ ] Dia 01: Banco de dados SQL
+  - [x] Dia 01: Banco de dados SQL
   - [ ] Dia 02: Encontrando dados em um banco de dados
   - [ ] Dia 03: Filtrando dados de forma específica
   - [ ] Dia 04: Manipulando tabelas
