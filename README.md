@@ -70,75 +70,75 @@
   - [x] Dia 02: JavaScript Assíncrono - Promises e fetch
   - [x] Dia 03: Prática - Casa de câmbio
   - [x] Dia 04: Async, await e testes assíncronos
-  - [ ] Dia 05: Projeto - Carrinho de compras
+  - [x] Dia 05: Projeto - Carrinho de compras
   
   #### 2. Introdução ao React
   
-  - [ ] Dia 01: 'Hello, world!' no React!
-  - [ ] Dia 02: Componentes React
-  - [ ] Dia 03: Projeto - Solar System
+  - [x] Dia 01: 'Hello, world!' no React!
+  - [x] Dia 02: Componentes React
+  - [x] Dia 03: Projeto - Solar System
    
    #### 3. Componentes com Estado, Eventos e Formulários com React
    
-  - [ ] Dia 01: Componentes com estado e eventos
-  - [ ] Dia 02: Formulários no React
-  - [ ] Dia 03: Projeto - Tryunfo
+  - [x] Dia 01: Componentes com estado e eventos
+  - [x] Dia 02: Formulários no React
+  - [x] Dia 03: Projeto - Tryunfo
    
    #### 4. Ciclo de Vida de Componentes e React Router
   
-  - [ ] Dia 01: Ciclo de vida de componentes
-  - [ ] Dia 02: React Router
-  - [ ] Dia 03: Projeto - TrybeTunes
+  - [x] Dia 01: Ciclo de vida de componentes
+  - [x] Dia 02: React Router
+  - [x] Dia 03: Projeto - TrybeTunes
    
   #### 5. Metodologias Ágeis
   
- - [ ] Dia 01: Metodologias Ágeis
- - [ ] Dia 02: Projeto - Front-end Online Store
+ - [x] Dia 01: Metodologias Ágeis
+ - [x] Dia 02: Projeto - Front-end Online Store
  
   #### 6. Testes automatizados com React Testing Library
   
-  - [ ] Dia 01: RTL - Primeiros passos
-  - [ ] Dia 02: RTL - Mocks e Inputs
-  - [ ] Dia 03: RTL - Testando React Router
-  - [ ] Dia 04: Projeto - Testes em React
+  - [x] Dia 01: RTL - Primeiros passos
+  - [x] Dia 02: RTL - Mocks e Inputs
+  - [x] Dia 03: RTL - Testando React Router
+  - [x] Dia 04: Projeto - Testes em React
 
   #### 7. Gerenciamento de estado com Redux
   
-  - [ ] Dia 01: Introdução ao Redux - O estado global da aplicação
-  - [ ] Dia 02: Usando o Redux no React
-  - [ ] Dia 03: Usando o Redux no React - Prática
-  - [ ] Dia 04: Usando o Redux no React - Actions Assíncronas
-  - [ ] Dia 05: Testes em React-Redux
-  - [ ] Dia 06: Projeto - Trybe Wallet
+  - [x] Dia 01: Introdução ao Redux - O estado global da aplicação
+  - [x] Dia 02: Usando o Redux no React
+  - [x] Dia 03: Usando o Redux no React - Prática
+  - [x] Dia 04: Usando o Redux no React - Actions Assíncronas
+  - [x] Dia 05: Testes em React-Redux
+  - [x] Dia 06: Projeto - Trybe Wallet
   
   #### 8. Projeto jogo de Trivia
   
-  - [ ] Dia 01: Projeto - Jogo de Trivia
+  - [x] Dia 01: Projeto - Jogo de Trivia
 
   #### 9. Context API e React Hooks
    
-  - [ ] Dia 01: React Hooks - useState e useEffect
-  - [ ] Dia 02: Context API
-  - [ ] Dia 03: Custom Hooks
-  - [ ] Dia 04: Projeto - StarWars Datatable com Context API e Hooks
+  - [x] Dia 01: React Hooks - useState e useEffect
+  - [x] Dia 02: Context API
+  - [x] Dia 03: Custom Hooks
+  - [x] Dia 04: Projeto - StarWars Datatable com Context API e Hooks
   
   #### 10. Projeto App de Receitas
   
-  - [ ] Dia 01: Projeto - App de Receitas
+  - [x] Dia 01: Projeto - App de Receitas
 
   ## Módulo 3 Back-End
 
   #### 1. Docker: Utilizando Containers
 
-  - [ ] Dia 01: Utilizando Containers Docker
-  - [ ] Dia 02: Manipulando Imagens no Docker
-  - [ ] Dia 03: Orquestrando Containers com Docker Compose
-  - [ ] Dia 04: Projeto - Docker Todo-List
+  - [x] Dia 01: Utilizando Containers Docker
+  - [x] Dia 02: Manipulando Imagens no Docker
+  - [x] Dia 03: Orquestrando Containers com Docker Compose
+  - [x] Dia 04: Projeto - Docker Todo-List
 
   #### 2. Introdução à SQL
 
-  - [ ] Dia 01: Banco de dados SQL
-  - [ ] Dia 02: Encontrando dados em um banco de dados
+  - [x] Dia 01: Banco de dados SQL
+  - [x] Dia 02: Encontrando dados em um banco de dados
   - [ ] Dia 03: Filtrando dados de forma específica
   - [ ] Dia 04: Manipulando tabelas
   - [ ] Dia 05: Projeto - All For One

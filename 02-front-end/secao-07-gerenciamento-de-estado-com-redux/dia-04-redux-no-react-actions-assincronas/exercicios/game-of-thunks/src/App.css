@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.name {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  width: 200px;
+}
+
+.titles {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 500px;
+}
+
+.titles-ul, .aliases-ul {
+  list-style: none;
+}
+
+.aliases {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 500px;
+}

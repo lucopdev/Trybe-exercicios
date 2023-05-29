@@ -1,0 +1,98 @@
+.email-board {
+  background-color: rgb(235, 235, 235);
+  border: 10px solid rgb(235, 240, 240);
+  box-shadow: 2px 2px 15px 10px rgba(0, 0, 0, 0.185);
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+}
+
+.email-card {
+  align-items: center;
+  display: flex;
+}
+
+.email-list {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row;
+  height: 10px;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 20px;
+  width: 700px;
+}
+
+.email-read {
+  color: grey;
+  background-color: rgb(209, 209, 209);
+}
+
+.email-not-read {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.board-btn-div {
+  margin: 10px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.btn-read {
+  align-items: center;
+  background-color: rgb(106, 255, 106);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin: 3px;
+  width: 50px;
+}
+
+.btn-delete {
+  align-items: center;
+  background-color: rgb(255, 104, 104);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin: 3px;
+  width: 50px;
+}
+
+.btn-read:active {
+  background-color: rgba(99, 230, 99, 0.842);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-delete:active {
+  background-color: rgb(206, 92, 92);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.delete-button button {
+  background-color: rgb(125, 193, 248);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+  border-radius: 5px;
+  border: none;
+}
+
+.delete-button button:active {
+  background-color: rgb(115, 180, 233);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+}
